@@ -24,3 +24,10 @@ body {
 		background: #fff;
 }
 
+.h1 {
+    margin: auto;
+    font-size: Bold;
+}
+.p {
+    margin: auto;
+}
