@@ -22,12 +22,11 @@ body {
 }
 
 
-.h1 {
+h1 {
     margin: auto;
     font-size: Bold;
-    font-size: 50px;
     text-align: center;
 }
-.p {
+p {
     margin: auto;
 }
