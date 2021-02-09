@@ -24,8 +24,9 @@ body {
 
 h1 {
     margin: auto;
-    font-size: Bold;
+    margin-top: 25px;
     text-align: center;
+    padding-bottom: 20px;
 }
 p {
     margin: auto;
