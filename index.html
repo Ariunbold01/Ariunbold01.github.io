@@ -18,27 +18,39 @@
     <div class="menu right">
         <ul>
             <li><a href="#home">Нүүр</a></li>
-            <li><a href="#">Миний тухай</a></li>
-            <li><a href="#">Миний хобби</a></li>
-            <li><a href="#">Миний гэр бүл</a></li>
-            <li><a href="#">Холбоо барих</a></li>
+            <li><a href="#about">Миний тухай</a></li>
+            <li><a href="#hobbi">Миний хобби</a></li>
+            <li><a href="#family">Миний гэр бүл</a></li>
+            <li><a href="#contact">Холбоо барих</a></li>
         </ul>
     </div>
     <div class="clr"></div>    
     </div>
     <div class="clr"></div>
 </div>
-<div class="bg" style="background-image: url(images/home-bg.jpg);">
-	<div class="caption">
-		<div class="container">
-            <div class="caption-text">
-				<h2>Сайн байна уу, Намайг</h2>
-                <h1>Ариунболд</h1>
-                <h4>гэдэг би бол <span>Оюутан</span></h4>
-                <a href="About" class="button">Миний тухай</a>
-			</div>
-		</div>
-	</div>
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div class="bg" style="background-image: url(images/home-bg.jpg);">
+        <div class="caption">
+            <div class="container">
+                <div class="caption-text">
+                    <h2>Сайн байна уу, Намайг</h2>
+                    <h1>Ариунболд</h1>
+                    <h4>гэдэг би бол <span>Оюутан</span></h4>
+                    <a href="#about" class="button">Миний тухай</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="about" id="about">
+    <div class="container">
+        <div class="title">
+            <h1>Миний тухай</h1> 
+            <div class="divider"></div>
+        </div>
+    </div>
 </div>
 <div class="footer">
 	<div class="container">
@@ -56,5 +68,18 @@
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+<script>
+  //header
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".header").addClass("active");
+    }
+    else {
+        $(".header").removeClass("active");
+    }
+  });
+</script>
+    
+    
 </body>
 </html>

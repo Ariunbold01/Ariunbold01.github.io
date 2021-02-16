@@ -1,6 +1,9 @@
 body {
 	font-family: "Ubuntu",Tahoma,Geneva,sans-serif;
 }
+html {
+scroll-behavior: smooth;
+}
 a {
 	text-decoration: none;
 }
@@ -29,13 +32,24 @@ ul {
 @media (min-width: 1200px) { 
 	
 }
-
+.divider {
+    background: #DE3163!important;
+}
+.header.active {
+    background: #DE3163;
+    transition: all 0.3s  ease;
+}
+.header.active .menu li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
 .header {
     padding: 25px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 999;
+    transition: all 0.3s  ease;
 }
 .header .logo {
 	margin: 0 15px;
@@ -52,12 +66,14 @@ ul {
 .header .menu li a {
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
-    padding: 0 10px;
+    font-size: 15px;
+    margin: 5px 10px;
+    padding-bottom: 3px;
     transition: all 0.3s ease;
 }
 .header .menu li a:hover {
-    
+    color: #fff;
+    border-bottom: 2px solid #DE3163;
 }
 .bg {
 	height: 100vh;
@@ -100,6 +116,19 @@ ul {
 .caption-text .button:hover {
     background: none;
     color: #fff;
+}
+.about {
+    position: relative;
+    height: 100vh;
+    padding: 50px 0;
+}
+.about .title {
+    margin: 25px; 15px;
+    color: #000;
+    text-align: center;
+}
+.about .title h1 {
+    font-size: 2.5rem;
 }
 .overlay {
     position: absolute;
