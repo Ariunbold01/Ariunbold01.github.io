@@ -90,17 +90,49 @@ ul {
     background-size: cover;
     background-position: center;
 }
+.caption {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.caption-text {
+    position: absolute;
+    top: 35%;
+    color: #fff;
+}
+.caption-text h1 {
+    font-size: 3.5rem;
+}
+.caption-text h4 span {
+    color: #DE3163 ;
+}
+.caption-text .button {
+    position: relative;
+    background: #DE3163;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 2px  solid #DE3163;
+    transition: all 0.3s ease;
+    
+}
+.caption-text .button:hover {
+    background: none;
+    color: #fff;
+}
 .about {
     position: relative;
-    padding: 50px 0;
-}
-.about h1 {
-    font-size: 2rem;
-    text-align: center;
+    padding: 50px;
 }
 .about-section {
-    background: url(images/home-bg.jpg) no-repeat left;
-    background-size: 55%;
+    background: url(images/about-bg.jpg) no-repeat left;
+    background-size: 60%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
@@ -110,18 +142,17 @@ ul {
     width: 55%;
     float: right;
     background-color: #fdfdfd;
-    padding: 150px;
+    padding: 100px;
     box-shadow: 1px 1px 3px 3px #888888;
     margin-right: 25px;
 }
-}
 
 .inner-container h1{
-    margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
 }
-.about-section .text{
+.about-section .text {
     color: #545454;
     line-height: 30px;
     text-align: justify;
