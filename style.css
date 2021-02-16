@@ -31,7 +31,7 @@ ul {
 }
 
 .header {
-    padding: 15px 0;
+    padding: 25px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -43,19 +43,23 @@ ul {
 .header .logo img {
 	width: 170px;
 }
-.menu  {
+.header .menu  {
 }
-.menu li {
+.header .menu li {
     list-style: none;
     display: inline-block;
 }
-.menu li a {
+.header .menu li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
     padding: 0 10px;
+    transition: all 0.3s ease;
 }
-.bg {
+.header .menu li a:hover {
+    color: #fff;
+    background: #DE3163;
+}
 	height: 100vh;
     position: relative;
     background-size: cover;
