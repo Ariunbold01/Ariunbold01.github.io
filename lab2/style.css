@@ -90,45 +90,13 @@ ul {
     background-size: cover;
     background-position: center;
 }
-.caption {
-    position: relative;
-    height: 100vh;
-    display: flex;
-}
-.caption-text {
-    position: absolute;
-    top: 35%;
-    color: #fff;
-}
-.caption-text h1 {
-    font-size: 3.5rem;
-}
-.caption-text h4 span {
-    color: #DE3163 ;
-}
-.caption-text .button {
-    position: relative;
-    background: #DE3163;
-    display: inline-block;
-    color: #fff;
-    margin-top: 30px;
-    padding: 10px 30px;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 6px;
-    border: 2px  solid #DE3163;
-    transition: all 0.3s ease;
-    
-}
-.caption-text .button:hover {
-    background: none;
-    color: #fff;
-}
 .about {
     position: relative;
     padding: 50px 0;
+}
+.about h1 {
+    font-size: 2rem;
+    text-align: center;
 }
 .about-section {
     background: url(images/home-bg.jpg) no-repeat left;
