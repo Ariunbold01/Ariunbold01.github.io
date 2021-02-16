@@ -65,6 +65,7 @@ ul {
     color: #fff;
     font-family: 'Ubuntu';
     font-weight: 500;
+    text-decoration: none;
 }
 .header .menu  {
 }
@@ -129,11 +130,12 @@ ul {
 .about {
     position: relative;
     padding: 50px;
+    background: url(images/bgA.jpg) no-repeat;
+    background-size: cover;
 }
 .about-section {
     background: url(images/about-bg.jpg) no-repeat left;
     background-size: 60%;
-    background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
 }
