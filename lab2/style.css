@@ -1,5 +1,5 @@
 body {
-	font-family: "Ubuntu",Tahoma,Geneva,sans-serif;
+	font-family: "Ubuntu",Tahoma,Geneva,sans-serif,Arial, serif;
 }
 html {
 scroll-behavior: smooth;
@@ -122,24 +122,48 @@ ul {
 }
 .about {
     position: relative;
-    height: auto;
     padding: 50px 0;
 }
-.about .photo {
-    height: auto;
-    width: 100%;
+.about-section {
+    background: url(images/home-bg.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
 }
-.about .photo img {
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    box-shadow: 1px 1px 3px 3px #888888;
+    margin-right: 25px;
 }
-.about .caption {
-    height: auto;
-    width: 100%;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-section .text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.about .caption p {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 16px;
+
 }
 .title {
-    margin: 25px; 15px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     color: #000;
     text-align: center;
 }
@@ -165,10 +189,56 @@ ul {
     padding: 50px 0;
 }
 .contact {
+	padding: 50px 0;
+	text-align: center;
+}
+.contact .contact-type {
+	overflow: hidden;
+}
+.contact .contact-type:hover .contact-icon i {
+	color: #fff;
+	background: #DE3163;
+	border-radius: 100%;
+	padding: 5px 10px;
+}
+.contact .contact-type .contact-icon {
+	text-align: center;
+	color: #DE3163;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact .contact-type .contact-icon h3 {
+	font-size: 17px;
+	font-family: roboto;
+    font-weight: 500;
+	color: #333;
+	line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact .contact-type .contact-icon i {
+	font-size: 48px;
+	color: #DE3163;
+	transition: all 0.3s ease-out;
+	padding: 5px 10px;
+}
+.contact .contact-type .contact-detail {
+	text-align: center;
+	color: #888888;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact .map {
     position: relative;
-    height: auto;
+    margin: 0 30px;
+}
+.contact .map .overplay {
+    position: absolute;
     width: 100%;
-    padding: 50px 0;
+    height: 100%;
+    top: 0;
+    background: #000;
+    opacity: 0.3;
 }
 .footer {
     background: #ccc;
