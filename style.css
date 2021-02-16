@@ -57,9 +57,9 @@ ul {
     transition: all 0.3s ease;
 }
 .header .menu li a:hover {
-    color: #fff;
-    background: #DE3163;
+    
 }
+.bg {
 	height: 100vh;
     position: relative;
     background-size: cover;
