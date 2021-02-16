@@ -47,7 +47,7 @@ ul {
     border-bottom: 2px solid #fff;
 }
 .header {
-    padding: 25px 0;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -122,8 +122,21 @@ ul {
 }
 .about {
     position: relative;
-    height: 100vh;
+    height: auto;
     padding: 50px 0;
+}
+.about .photo {
+    height: auto;
+    width: 100%;
+}
+.about .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.about .caption {
+    height: auto;
+    width: 100%;
 }
 .title {
     margin: 25px; 15px;
@@ -141,17 +154,20 @@ ul {
 }
 .hobby {
     position: relative;
-    height: 100vh;
+    height: auto;
+    width: 100%;
     padding: 50px 0;
 }
 .family {
     position: relative;
-    height: 100vh;
+    height: auto;
+    width: 100%;
     padding: 50px 0;
 }
 .contact {
     position: relative;
-    height: 100vh;
+    height: auto;
+    width: 100%;
     padding: 50px 0;
 }
 .footer {
