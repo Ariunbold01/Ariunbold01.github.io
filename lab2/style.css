@@ -60,6 +60,12 @@ ul {
 .header .logo img {
 	width: 170px;
 }
+.header .logo a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
 .header .menu  {
 }
 .header .menu li {
@@ -148,18 +154,13 @@ ul {
     font-weight: 900;
 }
 .about-section .text{
-    font-size: 13px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
-}
-
-.about .caption p {
     font-family: Roboto;
     font-style: italic;
     font-size: 16px;
-
 }
 .title {
     padding-top: 50px;
