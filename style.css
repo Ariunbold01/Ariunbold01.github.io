@@ -33,7 +33,10 @@ ul {
 	
 }
 .divider {
-    background: #DE3163!important;
+    width: 120px;
+    height: 3px;
+    background: #DE3163;
+    margin: 0 auto 30px;
 }
 .header.active {
     background: #DE3163;
@@ -79,7 +82,7 @@ ul {
 	height: 100vh;
     position: relative;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 .caption {
     position: relative;
@@ -122,12 +125,12 @@ ul {
     height: 100vh;
     padding: 50px 0;
 }
-.about .title {
+.title {
     margin: 25px; 15px;
     color: #000;
     text-align: center;
 }
-.about .title h1 {
+.title h1 {
     font-size: 2.5rem;
 }
 .overlay {
@@ -136,9 +139,18 @@ ul {
     height: 100%;
     background: rgba(0,0,0,.5);
 }
-.divider {
-    width: 100px;
-    height: 3px;
-    background: #88177f;
-    margin: 0 auto 30px;
+.hobby {
+    position: relative;
+    height: 100vh;
+    padding: 50px 0;
+}
+.family {
+    position: relative;
+    height: 100vh;
+    padding: 50px 0;
+}
+.contact {
+    position: relative;
+    height: 100vh;
+    padding: 50px 0;
 }
