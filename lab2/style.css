@@ -41,6 +41,7 @@ ul {
 .header.active {
     background: #E74C3C;
     transition: all 0.3s  ease;
+    box-shadow: 0px 0.5px 5px 0px #222;
 }
 .header.active .menu li a:hover {
     color: #fff;
@@ -145,7 +146,7 @@ ul {
     float: right;
     background-color: #fdfdfd;
     padding: 100px;
-    box-shadow: 1px 1px 3px 3px #888888;
+    box-shadow: 0px 1px 10px 10px #888888;
     margin-right: 25px;
 }
 
