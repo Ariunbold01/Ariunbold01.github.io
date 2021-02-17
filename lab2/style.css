@@ -35,11 +35,11 @@ ul {
 .divider {
     width: 120px;
     height: 3px;
-    background: #68a8e3;
+    background: #E74C3C;
     margin: 0 auto 30px;
 }
 .header.active {
-    background: #68a8e3;
+    background: #E74C3C;
     transition: all 0.3s  ease;
 }
 .header.active .menu li a:hover {
@@ -109,7 +109,7 @@ ul {
 }
 .caption-text .button {
     position: relative;
-    background: #68a8e3;
+    background: #E74C3C;
     display: inline-block;
     color: #fff;
     margin-top: 30px;
@@ -186,7 +186,7 @@ ul {
 }
 .hobby .title {
     padding: 25px;
-    background: #68a8e3;
+    background: #E74C3C;
     color: #fff;
 }
 .hobby .photo {
@@ -253,7 +253,7 @@ ul {
 }
 .contact .contact-type:hover .contact-icon i {
 	color: #fff;
-	background: #68a8e3;
+	background: #E74C3C;
 	border-radius: 100%;
 	padding: 5px 10px;
 }
@@ -274,7 +274,7 @@ ul {
 }
 .contact .contact-type .contact-icon i {
 	font-size: 48px;
-	color: #68a8e3;
+	color: #E74C3C;
 	transition: all 0.3s ease-out;
 	padding: 5px 10px;
 }
