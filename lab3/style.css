@@ -1,0 +1,98 @@
+body {
+	font-family: "Ubuntu",Tahoma,Geneva,sans-serif;
+}
+html {
+scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clr {
+	clear:both;
+}
+@media (min-width: 576px) {
+	
+}
+@media (min-width: 768px) { 
+	
+}
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 1200px) { 
+	
+}
+.divider {
+    width: 120px;
+    height: 3px;
+    background: #E74C3C;
+    margin: 0 auto 30px;
+}
+.header.active {
+    background: #E74C3C;
+    transition: all 0.3s  ease;
+    box-shadow: 0px 0.5px 5px 0px #222;
+}
+.header.active .menu li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.header {
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: all 0.3s  ease;
+}
+.header .logo {
+	margin: 0 15px;
+}
+.header .logo img {
+	width: 170px;
+}
+.header .logo a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    text-decoration: none;
+}
+.header .menu  {
+}
+.header .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.header .menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 5px 10px;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+}
+.header .menu li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #E74C3C;
+}
+
+
+
+
+.footer {
+    background: #ccc;
+}
+.footer p {
+    padding-top: 15px;
+}
