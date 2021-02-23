@@ -27,21 +27,22 @@
     </div>
     <div class="clr"></div>
 </div>
-    <div class="bg" style="background-image: url(images/home-bg.jpg);">
-        <div  clas="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="caption" id="home">
-                    <div class="container">
-                        <div class="caption-text">
-                        <h2>Hello, My name is</h2>
-                        <h1>Ariunbold</h1>
-                        <h4>I'm a <span>Student</span></h4>
-                        <a href="#about" class="button">About me</a>
-                        </div>
+<div class="bg" style="background-image: url(images/home-bg.jpg);">
+    <div  clas="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="caption" id="home">
+                <div class="container">
+                    <div class="caption-text">
+                    <h2>Hello, My name is</h2>
+                    <h1>Ariunbold</h1>
+                    <h4>I'm a <span>Student</span></h4>
+                    <a href="#about" class="button">About me</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="icon-scroll"></div>
+     </div>
 </div>
 <div class="about" id="about">
     <div class="about-section"> 
@@ -173,6 +174,17 @@
     }
     else {
         $(".header").removeClass("active");
+    }
+  });
+</script>
+<script>
+  //header
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".icon-scroll").addClass("remove");
+    }
+    else {
+        $(".icon-scroll").removeClass("remove");
     }
   });
 </script>

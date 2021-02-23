@@ -121,13 +121,60 @@ ul {
     text-transform: uppercase;
     border-radius: 6px;
     border: 2px  solid #E74C3C;
-    transition: all 0.3s ease;
+    transition: all 2s ease-out;
     
 }
 .caption-text .button:hover {
     background: none;
     color: #fff;
 }
+.icon-scroll,
+.icon-scroll::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-scroll.remove {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.icon-scroll {
+    width: 30px;
+    height: 50px;
+    border: 1.5px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    bottom: 2rem;
+}
+
+.icon-scroll::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    margin-left: -3px;
+    top: 10px;
+    border-radius: 50%;
+    animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+        transform: translateY(0) scale(0.5);
+    }
+    10% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.5);
+    }
+}
+
+
 .about {
     position: relative;
     padding: 50px;
