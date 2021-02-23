@@ -275,7 +275,7 @@ ul {
 }
 .hobby .hobby-wrap {
     width: 100%;
-    height: 400px;
+    height: auto;
     position: relative;
     background-color: #5f6366;
     cursor: pointer;
@@ -283,6 +283,8 @@ ul {
 }
 .hobby .hobby-wrap .photo {
     position: relative;
+    height: 450px;
+    float: left;
 }
 .hobby .hobby-wrap .photo-bg {
     position: absolute;
@@ -310,15 +312,14 @@ ul {
 }
 .hobby .hobby-wrap a h1 {
     color: white;
-    font-size: 1.33333333em;
-    line-height: 9em;
+    font-size: 1.4em;
     text-shadow: rgb(0 0 0 / 30%) 2px 1px 0;
     font-weight: 500;
     text-align: center;
     letter-spacing: 1px;
     position: relative;
     z-index: 2;
-    top: 108px;
+    top: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
