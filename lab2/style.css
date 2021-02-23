@@ -285,6 +285,16 @@ ul {
     font-size: 15px;
     line-height: 1.5;
 }
+.contact .contact-type .contact-detail a {
+    text-decoration: none;
+    text-align: center;
+	color: #888888;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact .contact-type .contact-detail a:hover {
+    color: #222;
+}
 .contact .map {
     position: relative;
     margin: 0 30px;
