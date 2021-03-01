@@ -228,6 +228,24 @@ ul {
     height: 300px;
     width: 100%;
 }
+.all_list .type .photo .overlay {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.4;
+}
+.all_list .type a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.all_list .type:hover .photo .overlay {
+    opacity: 0.25;
+}
+.all_list .type:hover .caption h3 {
+    color: #95c41f;
+}
 .all_list .type .price {
     font-size: 13px;
     font-weight: 600;
@@ -266,13 +284,9 @@ ul {
 } 
 .all_list .type .caption h3 {
     margin-bottom: 10px;
-}
-.all_list .type .caption a {
     font-size: 28px;
     color: #fff;
-}
-.all_list .type .caption a:hover {
-    color: #95c41f;
+    transition: all 0.3s ease-in-out;
 }
 .all_list .type .caption li {
     display: inline-block;
