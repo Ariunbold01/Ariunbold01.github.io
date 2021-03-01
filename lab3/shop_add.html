@@ -49,31 +49,37 @@
 <div class="container">
     <div class="add_main">
         <h3>Зар нэмэх</h3>
-        <form>
+        <form action="shop_list.html" method="post" autocomplete="on">
             <p>
                 <label>Зарын гарчиг:
-                    <input type="text" maxlength="50">
+                    <input type="text" placeholder="Гарчиг" maxlength="50" required>
                 </label>
+                50 тэмдэгтэнд багтаах
             </p>
             <p>
                 <label>Емайл:
-                    <input type="email" palaceholder="name@domain.com" required>
+                    <input type="email" placeholder="name@domain.com" required>
                 </label>
             </p>
             <p>
                 <label>Утас:
-                    <input type="tel" palaceholder="+XXX-XXXX-XXXX"
+                    <input type="tel" placeholder="+XXX-XXXX-XXXX"
                     pattern="\+\d{3}-+\d{4}-\d{4}" required>
-                </label> +XXX-XXXX-XXXX
-            </p>
-            <p>
-                <label>Ашиглалтанд орсон он сар:
-                    <input type="year">
                 </label>
             </p>
             <p>
-                <label for="txtList" id="txtList">Дүүрэг
-                    <input type="text" palaceholder="Дүүрэг" list="months">
+                <label>Ашиглалтанд орсон он сар:
+                    <input type="date" required>
+                </label>
+            </p>
+            <p>
+                <label>Талбай:
+                    <input type="text" placeholder="кмв" required>
+                </label>
+            </p>
+            <p>
+                <label for="txtList">Дүүрэг:
+                    <input type="text" placeholder="Дүүрэг" list="months" required>
                     <datalist id="months">
                         <option value="Баянзүрх">
                         <option value="Багануур">
@@ -86,8 +92,55 @@
                     </datalist>
                 </label>
             </p>
+            <p>
+                <label for="txtList">Өрөөний тоо:
+                    <input type="text" placeholder="Өрөө" list="room" required>
+                    <datalist id="room">
+                        <option value="1 өрөө">
+                        <option value="2 өрөө">
+                        <option value="3 өрөө">
+                        <option value="4 өрөө">
+                        <option value="+5 өрөө">
+                    </datalist>
+                </label>
+            </p>
+            <p>
+                <label for="txtList">Тагт:
+                    <input type="text" placeholder="Тагт" list="tagt" required>
+                    <datalist id="tagt">
+                        <option value="1 тагттай">
+                        <option value="2 тагттай">
+                        <option value="+3 тагттай">
+                    </datalist>
+                </label>
+            </p>
+            <p>
+                <label>Цонх:
+                    <input type="number" 
+                    min="0"
+                    max="15"
+                    value="1" 
+                    required >
+                </label>
+            </p>
+            <p>
+                <label>Байршил:
+                    <input type="text" placeholder="Байршил" maxlength="30" required>
+                </label>
+            </p>
+            <p>
+                <label for="txtList">Байршил:
+                    <input type="text" placeholder="Байршил" maxlength="30" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" required>
+                </label>  Манай Веб сайтанд зар оруулахыг зөвшөөрсөн болно.
+            </p>
             <input type="submit" value="Зар Нэмэх">
         </form>
+        <div class="clr"></div>
     </div>
 </div>
 

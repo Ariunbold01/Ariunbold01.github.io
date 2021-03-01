@@ -388,6 +388,12 @@ ul {
     font-size: 24px;
     margin-bottom: 20px; 
 }
+.add_main p {
+    position: relative;
+}
+.add_main input {
+    margin-right: 50%;
+}
 .footer {
     position: relative;
     background: #ccc;
