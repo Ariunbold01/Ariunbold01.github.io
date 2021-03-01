@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Personal  WEB</title>
+<title>Immovable  WEB</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,15 +15,20 @@
 <div class="header">
     <div class="container">
 	<div class="logo left">
-		<a href="#">Personal WEB</a>
+		<a href="#">Immovable WEB</a>
 	</div>
     <div class="menu right">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#hobby">Hobby</a></li>
-            <li><a href="#contact">Contact me</a></li>
+        <ul class="left">
+            <li><a href="index.html">Нүүр</a></li>
+            <li><a href="shop_list.html">Зар</a></li>
+            <li><a href="shop_add.html">Зар оруулах</a></li>
         </ul>
+        <div class="search right"> 
+            <form action="">
+                <input type="search" placeholder="Зар хайх" aria-label="search">
+                <button type="submit">Хайх</button>
+            </form>
+        </div>
     </div>
     <div class="clr"></div>    
     </div>
@@ -31,7 +36,24 @@
 </div>
 </header>
     
-    
+<div class="home"  style="background-image: url(images/home-bg.jpg);">
+    <div class="overlay"></div>
+        <div  clas="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="caption" id="home">
+                    <div class="container">
+                        <div class="caption-text">
+                        <h2>Mongolian First</h2>
+                        <h1><span>Immovable WEB</span>site</h1>
+                        <a href="#about" class="button">Үл хөдлөх зарна</a>
+                        <a href="#about" class="button revert">Үл хөдлөх түрээслүүлнэ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-scroll"><a href="#about"></a></div>
+        </div>    
+</div>
 <footer> 
 <div class="footer">
 	<div class="container">
@@ -39,7 +61,7 @@
 			Copyright by © 2021.
 		</p>
         <p class="right">
-            Developer <a href="#">Ариунболд</a> 
+            Developer <a href="https://ariunbold01.github.io/lab2/">Ариунболд</a> 
         </p>
         <div class="clr"></div>
 	</div>

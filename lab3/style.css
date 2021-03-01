@@ -1,5 +1,6 @@
 body {
 	font-family: "Ubuntu",Tahoma,Geneva,sans-serif;
+    background: #fafafa;
 }
 html {
 scroll-behavior: smooth;
@@ -35,11 +36,21 @@ ul {
 .divider {
     width: 120px;
     height: 3px;
-    background: #E74C3C;
+    background: #95c41f;
     margin: 0 auto 30px;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    opacity: 0.4;
+}
 .header.active {
-    background: #E74C3C;
+    position: relative;
+    background: #fff;
     transition: all 0.3s  ease;
     box-shadow: 0px 0.5px 5px 0px #222;
 }
@@ -49,7 +60,8 @@ ul {
 }
 .header {
     padding: 15px 0;
-    position: fixed;
+    background: #fff;
+    position: relative;
     width: 100%;
     top: 0;
     z-index: 999;
@@ -63,12 +75,13 @@ ul {
 }
 .header .logo a {
     font-size: 16px;
-    color: #fff;
+    color: #222;
     font-family: 'Ubuntu';
     font-weight: 500;
     text-decoration: none;
 }
 .header .menu  {
+    position: relative;
 }
 .header .menu li {
     list-style: none;
@@ -76,22 +89,190 @@ ul {
 }
 .header .menu li a {
     text-decoration: none;
-    color: #fff;
+    color: #222;
     font-size: 15px;
     margin: 5px 10px;
     padding-bottom: 3px;
     transition: all 0.3s ease;
 }
 .header .menu li a:hover {
+    color: #222;
+    border-bottom: 2px solid #95c41f;
+}
+.home {
+	height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.home .caption {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.home .caption-text {
+    position: absolute;
+    top: 35%;
     color: #fff;
-    border-bottom: 2px solid #E74C3C;
+}
+.home .caption-text h1 {
+    font-size: 3.5rem;
+}
+.home .caption-text span {
+    color: #95c41f ;
+}
+.home .caption-text .button {
+    position: relative;
+    background: #95c41f;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px  solid #95c41f;
+    transition: all 0.3s ease-out;
+    margin-right: 5px;
+    
+}
+.home .caption-text .button.revert {
+    background: none;
+    color: #95c41f;
+}
+.home .caption-text .button:hover {
+    background: none;
+    color: #fff;
+}
+.home .caption-text .button.revert:hover {
+    background: #95c41f;
+    color: #fff;
 }
 
-
-
-
+.top_title {
+	height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.top_title .way {
+    top: 45%;
+    position: absolute;
+    opacity: 0.9;
+}
+.top_title .way li {
+    display: inline-block;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+.top_title .way li::after {
+    content: "/";
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 5px;
+}
+.top_title .way li:last-child:after {
+    opacity: 0;
+}
+.top_title .way li a {
+    color: #fff;
+}
+.top_title .way li a:hover {
+    color: #95c41f;
+}
+.all_list {
+    padding: 20px;
+    text-align: center;
+}
+.all_list .title {
+    text-align: left;
+}
+.all_list .title h1 {
+    padding: 5px 0 15px 0;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000;
+}
+.all_list .type {
+    position: relative;
+    margin-bottom: 30px;
+}
+.all_list .type .photo {
+    position: relative;
+}
+.all_list .type .photo img {
+    height: 300px;
+    width: 100%;
+}
+.all_list .type .price {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px 4px;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+    left: 30px;
+    margin-top: 20px;
+    top: 0;
+    position: absolute;
+    background: #95c41f;
+}
+.all_list .type .tag {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px 4px;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    right: 30px;
+    margin-top: 20px;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.all_list .type .caption {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: left;
+} 
+.all_list .type .caption h3 {
+    margin-bottom: 10px;
+}
+.all_list .type .caption a {
+    font-size: 28px;
+    color: #fff;
+}
+.all_list .type .caption a:hover {
+    color: #95c41f;
+}
+.all_list .type .caption li {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    font-size: 14px;
+    line-height: normal;
+    color: #fff;
+    padding-right: 10px;
+    border-right: solid 1px #c7c7c7;
+}
+.all_list .type .caption li:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
 .footer {
+    position: relative;
     background: #ccc;
+    bottom: 0;
+    width: 100%;
 }
 .footer p {
     padding-top: 15px;
