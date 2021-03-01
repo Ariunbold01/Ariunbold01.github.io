@@ -59,7 +59,7 @@ ul {
     border-bottom: 2px solid #fff;
 }
 .header {
-    padding: 15px 0;
+    padding: 20px 0;
     background: #fff;
     position: relative;
     width: 100%;
@@ -69,12 +69,13 @@ ul {
 }
 .header .logo {
 	margin: 0 15px;
+    line-height: 2;
 }
 .header .logo img {
 	width: 170px;
 }
 .header .logo a {
-    font-size: 16px;
+    font-size: 18px;
     color: #222;
     font-family: 'Ubuntu';
     font-weight: 500;
@@ -83,6 +84,9 @@ ul {
 .header .menu  {
     position: relative;
 }
+.header .menu ul {
+    line-height: 2;
+}
 .header .menu li {
     list-style: none;
     display: inline-block;
@@ -90,14 +94,31 @@ ul {
 .header .menu li a {
     text-decoration: none;
     color: #222;
-    font-size: 15px;
+    font-size: 16px;
     margin: 5px 10px;
     padding-bottom: 3px;
     transition: all 0.3s ease;
+    font-weight: 400;
 }
 .header .menu li a:hover {
-    color: #222;
-    border-bottom: 2px solid #95c41f;
+    color: #95c41f;
+}
+.header .menu .search {
+
+}
+.header .menu .search input {
+    border: 1px solid #95c41f;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.header .menu .search input:focus {
+    border: 1px solid #95c41f;
+}
+.header .menu .search button {
+    padding: 5px 10px;
+    border: 1px solid #95c41f;
+    border-radius: 5px;
+    background: #fff;
 }
 .home {
 	height: 100vh;
@@ -268,6 +289,82 @@ ul {
     margin-right: 0;
     padding-right: 0;
 }
+.main {
+    padding: 50px;
+}
+.main .main_top {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.main .main_top h3 {
+    font-size: 24px;
+    color: #353434;
+}
+.main .main_top .price h3 {
+    color: #95c41f;
+}
+.main .section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.main .section .picture img {
+    width: 100%;
+    height: auto;
+}
+.main .section h5 {
+    color: #353434;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.main .section p {
+    color: #6d6d6d;
+}
+.main .contact {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main .contact button {
+    padding: 15px 20px;
+    border: 2px solid #95c41f;
+    border-radius: 20px;
+    background: #95c41f;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.main .contact button i {
+    margin-right: 10px;
+}
+.main .contact button:hover {
+    background: #fff;
+    color: #95c41f;
+}
+.main .details {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.main .details h5 {
+    color: #353434;
+}
+.main .details li {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.main .details li span {
+    font-weight: 600;
+    margin-left: 10px;
+    float: right;
+}
+
 .footer {
     position: relative;
     background: #ccc;
