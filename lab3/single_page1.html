@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Immovable  WEB</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="header">
+    <div class="container">
+	<div class="logo left">
+		<a href="#">Immovable WEB</a>
+	</div>
+    <div class="menu right">
+        <ul class="left">
+            <li><a href="index.html">Нүүр</a></li>
+            <li><a href="shop_list.html">Зар</a></li>
+            <li><a href="shop_add.html">Зар оруулах</a></li>
+        </ul>
+        <div class="search right"> 
+            <form action="">
+                <input type="search" placeholder="Зар хайх" aria-label="search">
+                <button type="submit">Хайх</button>
+            </form>
+        </div>
+    </div>
+    <div class="clr"></div>    
+    </div>
+    <div class="clr"></div>
+</div>
+</header>
+<div class="top_title" style="background-image: url(images/top_title.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="way">
+            <ul>
+                <li><a href="index.html">Нүүр</a></li>
+                <li><a href="shop_list.html">Зар</a></li>
+                <li>Зар</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<footer> 
+<div class="footer">
+	<div class="container">
+		<p class="left">
+			Copyright by © 2021.
+		</p>
+        <p class="right">
+            Developer <a href="https://ariunbold01.github.io/lab2/">Ариунболд</a> 
+        </p>
+        <div class="clr"></div>
+	</div>
+</div>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script>
+  //header
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".header").addClass("active");
+    }
+    else {
+        $(".header").removeClass("active");
+    }
+  });
+</script>
+    
+    
+</body>
+</html>
