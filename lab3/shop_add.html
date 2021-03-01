@@ -52,18 +52,18 @@
         <form action="shop_list.html" method="post" autocomplete="on">
             <p>
                 <label>Зарын гарчиг:
-                    <input type="text" placeholder="Гарчиг" maxlength="50" required>
+                    <input type="text" id="garchig" placeholder="Гарчиг" maxlength="50" required>
                 </label>
                 50 тэмдэгтэнд багтаах
             </p>
             <p>
                 <label>Емайл:
-                    <input type="email" placeholder="name@domain.com" required>
+                    <input type="email" id="mail" placeholder="name@domain.com" required>
                 </label>
             </p>
             <p>
                 <label>Утас:
-                    <input type="tel" placeholder="+XXX-XXXX-XXXX"
+                    <input type="tel" id="phone" placeholder="+XXX-XXXX-XXXX"
                     pattern="\+\d{3}-+\d{4}-\d{4}" required>
                 </label>
             </p>
@@ -129,9 +129,10 @@
                 </label>
             </p>
             <p>
-                <label for="txtList">Байршил:
-                    <input type="text" placeholder="Байршил" maxlength="30" required>
-                </label>
+                <label>Дэлгэрэнгүй:
+                    <input type="text" placeholder="Дэлгэрэнгүй" maxlength="150" required
+                    style="height: 5em;">
+                </label> 150 тэмдэгтэнд багтаах
             </p>
             <p>
                 <label>
