@@ -394,6 +394,18 @@ ul {
 .add_main input {
     margin-right: 50%;
 }
+.add_main .submit_btn {
+    background: #95c41f;
+    padding: 10px;
+    border: 1px solid #95c41f;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.add_main .submit_btn:hover {
+    background: #fff;
+    color: #95c41f;
+}
 .footer {
     position: relative;
     background: #ccc;
