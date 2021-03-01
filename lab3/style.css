@@ -400,7 +400,7 @@ ul {
     border: 1px solid #95c41f;
     border-radius: 10px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
 }
 .add_main .submit_btn:hover {
     background: #fff;
