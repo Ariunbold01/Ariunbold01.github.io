@@ -34,7 +34,7 @@ ul {
 	
 }
 .container.cv {
-    max-width: 1140px;
+    max-width: 1100px;
 }
 .main {
     margin: 100px 0;
@@ -179,5 +179,16 @@ ul {
 }
 .main .bottom .education .type h5 {
     font-size: 15px;
+    color: #2E86C1;
+}
+.main .bottom .hobbies {
+    padding-bottom: 30px;
+}
+.main .bottom .hobbies .icon a {
+    font-size: 40px;
+    color: #424949;
+    transition: all 0.3s ease;
+}
+.main .bottom .hobbies .icon a:hover {
     color: #2E86C1;
 }
