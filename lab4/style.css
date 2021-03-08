@@ -3,7 +3,7 @@ body {
     background: #F2F3F4;
 }
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 a {
 	text-decoration: none;
