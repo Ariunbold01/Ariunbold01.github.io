@@ -95,11 +95,11 @@ ul {
     margin: 50px 0;
     padding: 0 30px;
     border-right: 2px solid #CCD1D1;
-    opacity: 0.9;
     height: 100%;
 }
 .main .bottom h4 {
-    font-size: 30px;
+    font-size: 26px;
+    font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #2E86C1;
@@ -109,11 +109,11 @@ ul {
     font-size: 15px;
 }
 .main .bottom .about-me {
-    padding-top: 30px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
 .main .bottom .skill {
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 .main .bottom .skill .name {
@@ -157,4 +157,27 @@ ul {
 }
 .database {
     width: 60%;
+}
+.main .bottom .b-right {
+    margin: 50px 0;
+    padding: 0 30px;
+    height: 100%;
+}
+.main .bottom .education {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.main .bottom .education .type {
+    text-align: left;
+    padding-bottom: 15px;
+}
+.main .bottom .education .type h4 {
+    font-size: 21px;
+    margin-bottom: 5px;
+    color: #222;
+    font-weight: bold;
+}
+.main .bottom .education .type h5 {
+    font-size: 15px;
+    color: #2E86C1;
 }
