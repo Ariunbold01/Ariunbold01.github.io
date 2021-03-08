@@ -87,6 +87,74 @@ ul {
     font-size: 16px;
 }
 .main .bottom {
-    height: 800px;
-    background: #fff;
+    height: auto;
+    background: #F7F9F9;
+    text-align: center;
+}
+.main .bottom .b-left {
+    margin: 50px 0;
+    padding: 0 30px;
+    border-right: 2px solid #CCD1D1;
+    opacity: 0.9;
+    height: 100%;
+}
+.main .bottom h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #2E86C1;
+}
+.main .bottom p {
+    color: #515A5A;
+    font-size: 15px;
+}
+.main .bottom .about-me {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.main .bottom .skill {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.main .bottom .skill .name {
+    text-align: left;
+    padding-left: 30px;
+}
+.main .bottom .skill .name h3 {
+    font-size: 17px;
+    color: #222;
+    padding-bottom: 5px;
+}
+.main .bottom .skill li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 11px 0;
+}
+
+.main .bottom .skill .bar {
+    background: #2E86C1;
+    display: block;
+    height: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.main .bottom .skill .bar span {
+    height: 5px;
+    float: left;
+    background: #000;
+}
+.html {
+    width: 95%;
+}
+.css {
+    width: 85%;
+}
+.ux {
+    width: 70%;
+}
+.js {
+    width: 80%;
+}
+.database {
+    width: 60%;
 }
