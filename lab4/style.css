@@ -21,8 +21,11 @@ ul {
 .clr {
 	clear:both;
 }
-@media (min-width: 576px) {
-	
+@media (max-width: 576px) {
+	.main .bottom .b-left {
+        margin-top: 50px!important;
+        margin-bottom: 0px!important;
+    }
 }
 @media (min-width: 768px) { 
 	
