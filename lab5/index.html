@@ -1,21 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SONS.MN</title>
+<title>SONS.mn</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/materialdesignicons.min.css">
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
 </head>
 <body>
 <header id="header">
 </header>
 
-<div class="container">
-    <h4>Хуудас одоогоор засвартай байна</h4>
+<div class="home">
+  <div class="header">
+    <div class="menu-button left">
+      <a href="#" onclick="openMenu()"><i class="mdi mdi-menu" aria-hidden="true"></i></a>
+    </div>
+    <div class="logo left">
+      <a href="#">Sons.mn</a>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="main">
+    <div class="row">
+       <div class="search-bar col-md-12 col-sm-12">
+         <form action="">
+          <input type="search" placeholder="Хайх үгээ оруулна уу" aria-label="search">
+          <button type="submit"><i class="mdi mdi-magnify"></i></button>
+        </form>
+      </div>
+      <div class="type">
+        <div class="row">
+          <div class="image col-md-1 col-sm-3">
+            <img src="images/1.jpg" alt="1">
+          </div>
+          <div class="text col-md-11 col-sm-9">
+            <div class="title">
+              <h3>ТЕГ: Хятад иргэд их хэмжээний бэлэн ба бэлэн бус валют хилээр нэвтрүүлсэн</h3>
+            </div>
+            <div class="date">
+              <i class="mdi mdi-calendar-text left"></i>
+              <p class="left">2019-11-7 08:08:35</p>
+              <div class="clr"></div>
+            </div>
+            <div class="source">
+              <span class="left">Эх сурвалж:</span>
+              <img class="left" src="images/zuvmn.png" alt="zuv">
+              <div class="clr"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="navbar">
+  <div class="row">
+    <div class="container">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt="logo"></a>
+        <a class="hamburger" onclick="closeMenu()"><i class="mdi mdi-close" aria-hidden="true"></i></a>
+        <div class="clr"></div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Улс төр</a></li>
+          <li><a href="#">Нийгэм</a></li>
+          <li><a href="#">Эдийн засаг</a></li>
+          <li><a href="#">Технологи</a></li>
+          <li><a href="#">Спорт</a></li>
+          <li><a href="#">Дэлхийд</a></li>
+        </ul>
+      </div>
+      <div class="banner">
+        <img src="images/banner.png" alt="banner">
+      </div>
+    </div>
+  </div>
 </div>
 
 <footer>
@@ -25,15 +89,16 @@
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
 <script>
-  //header
-  $(window).scroll(function () {
-    if ($(window).scrollTop() >= 100) {
-        $(".header").addClass("active");
-    }
-    else {
-        $(".header").removeClass("active");
-    }
-  });
+  let home = document.querySelector(".home");
+  let navbar = document.querySelector(".navbar");
+  function openMenu(){
+      home.style.display = "none";
+      navbar.style.display = "block";
+  }
+  function closeMenu(){
+      home.style.display = "block";
+      navbar.style.display = "none";
+  }
 </script>
 
 <script>
