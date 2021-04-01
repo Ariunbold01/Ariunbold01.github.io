@@ -20,9 +20,12 @@ ul {
 .clr {
 	clear:both;
 }
-@media (max-width: 376px) { 
+@media (max-width: 425px) { 
 	.main .type .text .title h3 {
         font-size: 16px!important;
+    }
+    .footer img {
+        width: 100%!important;
     }
 }
 .header {
