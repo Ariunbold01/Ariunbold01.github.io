@@ -44,15 +44,15 @@ ul {
 }
 .navbar .logo {
     margin: auto;
-    width: 350px;
+    text-align: center;
+    width: 100%;
     padding: 20px 20px 25px 20px;
 }
 .navbar .logo .hamburger {
     cursor: pointer;
-    float: right;
     font-size: 30px;
     color: #6b46f3;
-    margin: auto;
+    margin-left: 3em;
 }
 .navbar .logo img {
     width: 154px;
