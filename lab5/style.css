@@ -40,7 +40,7 @@ ul {
 .navbar {
     display: none;
     overflow: hidden;
-    height: 100vh;
+    height: auto;
     width: 100%;
     background: #fff;
     padding: 40px;
