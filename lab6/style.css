@@ -21,6 +21,12 @@ ul {
 .clr {
 	clear:both;
 }
+@media (max-height: 450px) {
+    .home-bg video {
+        width: 100%!important;
+        height: auto!important;
+    }
+}
 @media (max-width: 576px) {
 	.fix img {
         width: 100%!important;
