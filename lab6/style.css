@@ -1,6 +1,6 @@
 body {
 	font-family: "Ubuntu",Tahoma,Geneva,sans-serif;
-    background: #F2F3F4;
+    background: #222;
 }
 html {
     scroll-behavior: smooth;
@@ -36,162 +36,18 @@ ul {
 @media (min-width: 1200px) { 
 	
 }
-.container.cv {
-    max-width: 1100px;
-}
-.main {
-    margin: 100px 0;
-    height: auto;
-    box-shadow: 0px 0px 30px 3px #424949;
-}
-.main .top {
-    background: #222;
-    height: auto;
-    text-align: center;
-}
-.main .top .profile {
-    margin-top: 35px;
-}
-.main .top .profile img {
-    height: 195px;
-    width: 195px;
-    border-radius: 50%;
 
-}
-.main .top .caption {
-    padding-bottom: 10px;
-}
-.main .top .caption h3 {
-    margin-top: 15px;
-    color: #fff;
-    text-transform: uppercase;
-}
-.main .top .caption h5 {
-    margin: 0px;
-    font-size: 18px;
-    color: #2E86C1;
-    text-transform: uppercase;
-}
-.main .top .social {
-    padding-top: 10px;
-    padding-bottom: 35px;
-}
-.main .top .social a {
-    color: #B2BABB;
-    margin: 0 25px;
-    font-size: 15px;
-    transition: all 0.3s ease-in-out;
-}
-.main .top .social a:hover {
-    color: #F2F3F4;
-}
-.main .top .social a i {
-    padding-right: 10px;
-    font-size: 16px;
-}
-.main .bottom {
-    height: auto;
-    background: #F7F9F9;
+.fix {
+    position: fixed;
+    top: 15%;
     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.main .bottom .b-left {
-    margin: 50px 0;
-    padding: 0 30px;
-    border-right: 2px solid #CCD1D1;
-    height: 100%;
-}
-.main .bottom h4 {
-    font-size: 26px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    color: #2E86C1;
-}
-.main .bottom p {
-    color: #515A5A;
-    font-size: 15px;
-}
-.main .bottom .about-me {
-    padding-top: 0px;
-    padding-bottom: 30px;
-}
-.main .bottom .skill {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.main .bottom .skill .name {
-    text-align: left;
-    padding-left: 30px;
-}
-.main .bottom .skill .name h3 {
-    font-size: 17px;
-    color: #222;
-    padding-bottom: 5px;
-}
-.main .bottom .skill li {
-    list-style: none;
-    margin-bottom: 5px;
-    padding: 11px 0;
-}
-
-.main .bottom .skill .bar {
-    background: #2E86C1;
-    display: block;
-    height: 5px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-.main .bottom .skill .bar span {
-    height: 5px;
-    float: left;
-    background: #000;
-}
-.html {
-    width: 95%;
-}
-.css {
-    width: 85%;
-}
-.ux {
-    width: 70%;
-}
-.js {
-    width: 80%;
-}
-.database {
-    width: 60%;
-}
-.main .bottom .b-right {
-    margin: 50px 0;
-    padding: 0 30px;
-    height: 100%;
-}
-.main .bottom .education {
-    padding-top: 0px;
-    padding-bottom: 30px;
-}
-.main .bottom .education .type {
-    text-align: left;
-    padding-bottom: 15px;
-}
-.main .bottom .education .type h4 {
-    font-size: 21px;
-    margin-bottom: 5px;
-    color: #222;
-    font-weight: bold;
-}
-.main .bottom .education .type h5 {
-    font-size: 15px;
-    color: #2E86C1;
-}
-.main .bottom .hobbies {
-    padding-bottom: 30px;
-}
-.main .bottom .hobbies .icon a {
-    font-size: 40px;
-    color: #424949;
-    transition: all 0.3s ease;
-}
-.main .bottom .hobbies .icon a:hover {
-    color: #2E86C1;
+.fix h4 {
+    color: #8b9091;
+    font-size: 3em;
 }
