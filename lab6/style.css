@@ -132,7 +132,7 @@ ul {
 .hamburger-lines .line-top {
 	top: 18%;
 }
-.hamburger-lines:focus .line-top {
+.hamburger-lines.true .line-top {
     transform: rotate(-45deg);
 	top: 48%;
     background: #fff;
