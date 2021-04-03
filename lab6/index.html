@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>LAB6</title>
+<title>Vehicle WEB</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <link rel="stylesheet" href="css/materialdesignicons.min.css">
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="style.css">
@@ -12,7 +12,46 @@
 </head>
 <body>
 <header id="header">
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">Vehicle WEB</a>
+          <button class="navbar-toggler hamburger-lines" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line-top"></span>
+            <span class="line-middle"></span>
+            <span class="line-bottom"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Type
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Race</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                  <li><a class="dropdown-item" href="#">Family</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
 </header>
+<div class="home-bg">
+  <video autoplay muted loop>
+    <source src="images/inf_bg.mp4" type="video/mp4">  
+  </video>
+</div>
 <div class="row" style="margin: 0;padding: 0;">
     <div class="fix col-md-12 col-sm-12">
         <img src="images/fix.svg" alt="">
@@ -21,11 +60,12 @@
 </div>
 
 
+
 <footer>
 </footer>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 <script>
   //header
