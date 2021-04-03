@@ -22,9 +22,11 @@ ul {
 	clear:both;
 }
 @media (max-width: 576px) {
-	.main .bottom .b-left {
-        margin-top: 50px!important;
-        margin-bottom: 0px!important;
+	.fix img {
+        width: 100%!important;
+    }
+    .fix h4 {
+        font-size: 2em!important;
     }
 }
 @media (min-width: 768px) { 
@@ -42,10 +44,14 @@ ul {
     top: 15%;
     text-align: center;
     width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+}
+.fix img {
+    width: auto;
+    height: auto;
 }
 .fix h4 {
     color: #8b9091;
