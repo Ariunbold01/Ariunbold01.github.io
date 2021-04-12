@@ -391,6 +391,9 @@ ul {
 .add_main p {
     position: relative;
 }
+.add_main label {
+    display: grid;
+}
 .add_main input {
     margin-right: 50%;
 }
