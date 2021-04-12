@@ -30,9 +30,10 @@ ul {
     }
 }
 .fix {
-    display: fixed;
     position: fixed;
-    top: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
     width: 100%;
     flex-direction: column;
@@ -65,7 +66,9 @@ span {
 }
 .main {
     display: block;
-    top: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     position: fixed;
     text-align: center;
     width: 100%;

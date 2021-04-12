@@ -28,7 +28,7 @@
 
 <script>
 
-  var str = window.prompt("Өгүүлбэр оруулна уу. Криллээр бичсэн байх");
+  var string = window.prompt("Өгүүлбэр оруулна уу. Криллээр бичсэн байх");
 
   var er = ['а', 'у', 'о'];
   var em = ['э', 'ө', 'ү'];
@@ -36,7 +36,7 @@
   var countER=0;
   var countEM=0;
 
-  ug = str.split(' ');
+  ug = string.split(' ');
     er.forEach(letter => {
       for (i = 0; i < ug.length; i++) {
         if (ug[i].includes(letter)) {
