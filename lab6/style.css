@@ -49,9 +49,10 @@ ul {
 }
 
 .fix {
-    display: flex;
     position: fixed;
-    top: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
     width: 100%;
     flex-direction: column;
