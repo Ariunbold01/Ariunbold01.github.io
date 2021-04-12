@@ -1,0 +1,51 @@
+body {
+	font-family: "Ubuntu",Tahoma,Geneva,sans-serif;
+    background: #222;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clr {
+	clear:both;
+}
+@media (max-width: 576px) {
+	.fix img {
+        width: 100%!important;
+    }
+    .fix h4 {
+        font-size: 2em!important;
+    }
+}
+.fix {
+    display: flex;
+    position: fixed;
+    top: 15%;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.fix img {
+    width: auto;
+    height: auto;
+}
+.fix h4 {
+    color: #8b9091;
+    font-size: 3em;
+    margin: 15px 0;
+}
