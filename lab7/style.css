@@ -30,7 +30,7 @@ ul {
     }
 }
 .fix {
-    display: none;
+    display: fixed;
     position: fixed;
     top: 15%;
     text-align: center;
