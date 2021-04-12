@@ -30,7 +30,7 @@ ul {
     }
 }
 .fix {
-    display: flex;
+    display: none;
     position: fixed;
     top: 15%;
     text-align: center;
@@ -48,4 +48,42 @@ ul {
     color: #8b9091;
     font-size: 3em;
     margin: 15px 0;
+}
+h3 {
+    padding: 20px;
+    font-size: 1.5em;
+    color: #fff;
+}
+p {
+    color: #8b9091;;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+span {
+    color: #fff;
+}
+.main {
+    display: block;
+    top: 20%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.main li {
+    list-style: none;
+    padding: 18px;
+}
+.main li a {
+    padding: 15px;
+    color: #8b9091;
+    font-size: 1.2em;
+    transition: all 0.25s ease-in-out;
+}
+.main li a:hover {
+    color: #fff;
 }
