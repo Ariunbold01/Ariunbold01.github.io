@@ -90,3 +90,33 @@ span {
 .main li a:hover {
     color: #fff;
 }
+.text {
+    color: #fff;
+    font-weight: 550;
+    font-size: 18px;
+}
+.weak {
+    color: yellow;
+}
+.medium {
+    color: orange;
+}
+.strong {
+    color: green;
+}
+.password {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.password input {
+    padding: 10px 15px;
+}
