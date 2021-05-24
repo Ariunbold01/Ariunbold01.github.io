@@ -56,12 +56,14 @@ ul {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    width: 100%;
+    width: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    border-radius: 5px;
 }
+
 .main li {
     padding: 15px;
 }
@@ -71,4 +73,49 @@ ul {
 }
 .main li a:hover {
     color: #fff;
+}
+.s_validate {
+    background: #8b9091;
+}
+.validate {
+    text-align: left;
+}
+.validate input {
+    display: flex;
+    width: 320px;
+    background: #B3B6B7;
+    border: 1px solid #515A5A;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.validate h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ECF0F1;
+    font-weight: 600;
+    font-size: 2.3em;
+}
+.validate label {
+    font-size: 17px;
+    font-weight: 500;
+    color: #222;
+}
+.validate p {
+    color: #D0D3D4;
+    font-size: 16px;
+}
+.validate .submit input {
+    text-align: center;
+    display: block;
+    color: #A6ACAF;
+    background: #D0D3D4;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 0.25s ease-in;
+    text-transform: uppercase;
+}
+.validate .submit input:hover {
+    color: #fff;
+    background: #A6ACAF;
 }

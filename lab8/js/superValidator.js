@@ -1,88 +1,116 @@
-const form = document.getElementById('form');
-const username = document.getElementById('username');
-const email = document.getElementById('email');
-const password = document.getElementById('password');
-const password2 = document.getElementById('password2');
+let lastnameConsole = document.querySelector('#lastname-wrong');
+let firstnameConsole = document.querySelector('#firstname-wrong');
+let birthdayConsole = document.querySelector('#birthday-wrong');
+let regnumberConsole = document.querySelector('#regnumber-wrong');
+let passwordConsole = document.querySelector('#password-wrong');
 
-form.addEventListener('submit', e => {
-	e.preventDefault();
-	
-	checkInputs();
-});
+function validateForm(){
+    let lastname = document.forms["form"]["lastname"].value;
+    let firstname = document.forms["form"]["firstname"].value;
+    let date = new Date(document.forms["form"]["birthday"].value);
+    let regnumber = document.forms["form"]["regnumber"].value;
+    let password = document.forms["form"]["password"].value;
+    let correct = true;
+    
+    //check
 
-function checkInputs() {
-	// trim to remove the whitespaces
-	const usernameValue = username.value.trim();
-	const emailValue = email.value.trim();
-	const passwordValue = password.value.trim();
-	const password2Value = password2.value.trim();
-	
-	if(usernameValue === '') {
-		setErrorFor(username, 'Username cannot be blank');
-	} else {
-		setSuccessFor(username);
-	}
-	
-	if(emailValue === '') {
-		setErrorFor(email, 'Email cannot be blank');
-	} else if (!isEmail(emailValue)) {
-		setErrorFor(email, 'Not a valid email');
-	} else {
-		setSuccessFor(email);
-	}
-	
-	if(passwordValue === '') {
-		setErrorFor(password, 'Password cannot be blank');
-	} else {
-		setSuccessFor(password);
-	}
-	
-	if(password2Value === '') {
-		setErrorFor(password2, 'Password2 cannot be blank');
-	} else if(passwordValue !== password2Value) {
-		setErrorFor(password2, 'Passwords does not match');
-	} else{
-		setSuccessFor(password2);
-	}
+    if(lastname.length == 0){
+        lastnameConsole.innerText = "Овгоо оруулна уу";
+        correct= false;
+    }
+    if(lastname.length >= 1){
+        lastnameConsole.innerText = " ";
+    }
+    if(firstname.length == 0){
+        firstnameConsole.innerText = "Нэрээ оруулна уу";
+        correct = false;
+    }
+    if(firstname.length >= 1){
+        firstnameConsole.innerText = " ";
+    }
+    if(date.length == 0){
+        birthdayConsole.innerText = "Төрсөн он сараа оруулна уу";
+        correct = false;
+    }
+    if(regnumber.length < 6){
+        regnumberConsole.innerText = "РД ээ оруулна уу";
+        correct= false;
+    }
+    if(password.length == 0){
+        passwordConsole.innerText = "Password хийгээгүй байна";
+        correct = false;
+    }
+    else if(password.length < 8){
+        passwordConsole.innerText = "Урт 8, том жижиг үсэг, тоо орсон байх";
+        correct = false;
+    }
+
+
+    // Password 
+    if(password.search(/[0-9]/) < 0){
+        passwordConsole.innerText = "Тоо алга байна.";
+        correct = false;
+    }
+    else if(password.search(/[A-Z]/)<0){
+        passwordConsole.innerText = "Том үсэг байхгүй байна";
+        correct = false;
+    }
+    else if(password.search(/[a-z]/)<0){
+        passwordConsole.innerText = "Жижиг үсэг олдсонгүй";
+        correct = false;
+    }
+    else if(password.search(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)<0){
+        passwordConsole.innerText = "Тусгай тэмдэгт олдсонгүй";
+        correct = false;
+    }
+    else if(password.search((/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)&&(/[a-z]/)&&(/[A-Z]/)&&(/[0-9]/))>8){
+        passwordConsole.innerText =" ";
+    }
+    
+    // Date 
+    
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+    
+    // register
+    if(regnumber.length == 10){
+        let regYear = regnumber.substring(2, 4);
+        let regMonth = regnumber.substring(4, 6);
+        let regDay = regnumber.substring(6, 8);
+        
+        if(parseInt(year) > 1999){
+            regMonth = regMonth - 20;
+        }
+        
+        if( year % 100 != parseInt(regYear)){
+            regnumberConsole.innerText = "Он зөрж байна.";
+            console.log(year.toString().substring(3,5));
+            correct = false;
+        }
+        else if(month != regMonth){
+            regnumberConsole.innerText = "Сар зөрж байна.";
+            correct = false;
+        }
+        else if(day != regDay){
+            regnumberConsole.innerText = "Өдөр зөрж байна.";
+            correct = false;
+        }
+        else if((year % 100 == parseInt(regYear))&&(month == regMonth)&&(day == regDay)){
+            regnumberConsole.innerText = " ";
+        }
+    }
+    else{
+        regnumberConsole.innerText = "Буруу Рэгистэрийн дугаар";
+    }    
+    
+    //correct
+
+    if(correct){
+        alert("Submit");
+        return true;
+    }
+    else{
+        return false;
+    }
 }
-
-function setErrorFor(input, message) {
-	const formControl = input.parentElement;
-	const small = formControl.querySelector('small');
-	formControl.className = 'form-control error';
-	small.innerText = message;
-}
-
-function setSuccessFor(input) {
-	const formControl = input.parentElement;
-	formControl.className = 'form-control success';
-}
-	
-function isEmail(email) {
-	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-// SOCIAL PANEL JS
-const floating_btn = document.querySelector('.floating-btn');
-const close_btn = document.querySelector('.close-btn');
-const social_panel_container = document.querySelector('.social-panel-container');
-
-floating_btn.addEventListener('click', () => {
-	social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-	social_panel_container.classList.remove('visible')
-});

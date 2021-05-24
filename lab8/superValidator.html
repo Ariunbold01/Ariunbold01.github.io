@@ -11,13 +11,55 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700" rel="stylesheet">
 </head>
 <body>
-<div class="row" style="margin: 0;padding: 0;">
+<div class="row" style="margin: 0;padding: 0; display: none;">
     <div class="fix col-md-12 col-sm-12">
         <img src="images/fix.svg" alt="">
         <h4>Хуудас засвартай байна</h4>
     </div>
 </div>
-
+<div class="main s_validate">
+    <div class="validate">
+        <div class="container">
+            <form id="form" name="form" onsubmit="return validateForm()">
+                <h2>Super Validator</h2>
+                <div class="section">
+                    <label for="lastname">Овог</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Овог">
+                    <p id="lastname-wrong" class="wrong-input"></p>
+                </div>
+                <div class="section">
+                    <label for="firstname">Нэр</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Нэр">
+                    <p id="firstname-wrong" class="wrong-input"></p>
+                </div>
+                <div class="section">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="rkayaraa@gmail.com" required>
+                    <p id="email-wrong" class="wrong-input"></p>
+                </div>
+                
+                <div class="section">
+                    <label for="birthday">Төрсөн он</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <p id="birthday-wrong" class="wrong-input"></p>
+                </div>
+                <div class="section">
+                    <label for="regnumber">Рэгистэрийн Дугаар</label>
+                    <input type="text" id="regnumber" name="regnumber" placeholder="AB12345678">
+                    <p id="regnumber-wrong" class="wrong-input"></p>
+                </div>
+                <div class="section">
+                    <label for="password">Нууц үг</label>
+                    <input type="password" id="password" name="password" placeholder="Нууц үг">
+                    <p id="password-wrong" class="wrong-input"></p>
+                </div>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
 <footer>
