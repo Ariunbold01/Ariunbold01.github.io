@@ -47,19 +47,17 @@ function validateForm(){
 
 
     // Password 
-    if(password.search(/[0-9]/) < 0){
-        passwordConsole.innerText = "Тоо алга байна.";
+    if(password.search(/[a-z]/)<0){
+        passwordConsole.innerText = "Жижиг үсэг олдсонгүй";
         correct = false;
-    }
-    else if(password.search(/[A-Z]/)<0){
+    }else if(password.search(/[A-Z]/)<0){
         passwordConsole.innerText = "Том үсэг байхгүй байна";
         correct = false;
     }
-    else if(password.search(/[a-z]/)<0){
-        passwordConsole.innerText = "Жижиг үсэг олдсонгүй";
+    else if(password.search(/[0-9]/) < 0){
+        passwordConsole.innerText = "Тоо алга байна.";
         correct = false;
-    }
-    else if(password.search(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)<0){
+    }else if(password.search(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)<0){
         passwordConsole.innerText = "Тусгай тэмдэгт олдсонгүй";
         correct = false;
     }
