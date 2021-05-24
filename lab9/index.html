@@ -1,36 +1,226 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>LAB9</title>
+<title>CEO  WEB</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/materialdesignicons.min.css">
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700" rel="stylesheet">
 </head>
 <body>
-<div class="row" style="margin: 0;padding: 0;">
-    <div class="fix col-md-12 col-sm-12">
-        <img src="images/fix.svg" alt="">
-        <h4>Хуудас засвартай байна</h4>
+<header id="header">
+<div class="backtotop wow bounceInUp" data-wow-delay="0s" style="transition-duration: 1000ms;">
+	<a href="#header" id="backtotop"><i class="mdi mdi-chevron-up"></i></a>
+</div>
+
+<div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html">CEO WEB</a>
+          <button class="navbar-toggler hamburger-lines" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line-top"></span>
+            <span class="line-middle"></span>
+            <span class="line-bottom"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#learn">Learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+</div>
+<div class="bg" style="background-image: url(images/home-bg.jpg);">
+    <div class="row" style="margin: 0; padding: 0;">
+        <div class="col-md-12 col-sm-12">
+            <div class="caption" id="home">
+                <div class="container">
+                    <div class="caption-text">
+                    <h2>THE BFGPU</h2>
+                    <h1>New Generation</h1>
+                    <h4>RTX <span>3000 Series</span></h4>
+                    <a href="#learn" class="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="icon-scroll"><a href="#about"></a></div>
+     </div>
+</div>
+<div class="about" id="about">
+    <div class="about-section"> 
+        <div class="inner-container">
+             <h1>About us</h1>
+             <div class="divider"></div>
+             <p class="text">
+                In 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world.
+            </p>
+        </div>
+    </div> 
+</div>
+<div class="learn" id="learn">
+    <div class="title">
+        <h1>Learn</h1> 
+    </div>
+    <div class="learn-wrap">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 photo">
+                <a>
+                    <div class="photo-bg" style="background-image: url(images/8k.jpg);"></div>
+                    <h1>8K HDR GAMING</h1>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-12 photo">
+                <a>
+                    <div class="photo-bg" style="background-image: url(images/creative.jpg);"></div>
+                    <h1>UP YOUR CREATIVE GAME</h1>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 photo">
+                <a>
+                    <div class="photo-bg" style="background-image: url(images/stream.jpg);"></div>
+                    <h1>STREAM LIKE A BOSS</h1>
+                </a>
+            </div>
+        </div>
+        <div class="clr"></div>
     </div>
 </div>
 
-
-
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="title">
+            <h1>Contact us</h1> 
+            <div class="divider"></div>
+        </div>
+		  <div class="row" style="padding-bottom: 25px;">
+            <div class="col-md-3 col-sm-12">
+				<div class="contact-type">
+					<div class="contact-icon">
+                        <i class="mdi mdi-map-marker"></i>
+						<h3>Address</h3>
+					</div>
+					<div class="contact-detail">
+						<p>NVIDIA 2788 San Tomas Expressway Santa Clara, CA. 95050</p>
+					</div>
+				</div>
+			</div>
+            <div class="col-md-3 col-sm-12">
+				<div class="contact-type">
+					<div class="contact-icon">
+						<i class="mdi mdi-email"></i>
+						<h3>Email</h3>
+					</div>
+					<div class="contact-detail">
+						<p>
+                            <a href="mailto:nvidia@gmail.com" target="_blank">NVIDIA contact page</a>
+                        </p>
+					</div>
+				</div>
+			</div>
+            <div class="col-md-3 col-sm-12">
+				<div class="contact-type">
+					<div class="contact-icon">
+						<i class="mdi mdi-phone"></i>
+						<h3>Phone</h3>
+					</div>
+					<div class="contact-detail">
+						<p>(408) 486-2000</p>
+					</div>
+				</div>
+			</div>
+            <div class="col-md-3 col-sm-12">
+				<div class="contact-type">
+					<div class="contact-icon">
+						<i class="mdi mdi-link"></i>
+						<h3>Social</h3>
+					</div>
+					<div class="contact-detail">
+                        <p style="margin-bottom: 5px;">
+                            <a href="https://www.nvidia.com/" target="_blank">NVIDIA</a>
+                        </p>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.9731989922086!2d106.94490989806232!3d47.91807460534855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969223c8ebbad7%3A0x2a4fb53fea0e1be6!2z0JfSr9Kv0L0g0YXSr9GA0Y3RjSDRhdC-0YLRhdC-0L0sINCt0L3RhdGC0LDQudCy0LDQvdGLINOo0YDQs9Op0L0g0KfTqdC706nTqSwg0KPQu9Cw0LDQvdCx0LDQsNGC0LDRgA!5e0!3m2!1smn!2smn!4v1613466885459!5m2!1smn!2smn" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
 <footer>
+<div class="footer">
+	<div class="container">
+		<p class="left">
+			Copyright by © 2021.
+		</p>
+        <p class="right">
+            Developer <a href="#">Ариунболд</a> 
+        </p>
+        <div class="clr"></div>
+	</div>
+</div>
 </footer>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/hour.js"></script>
 
 <script>
+  //header
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".header").addClass("active");
+    }
+    else {
+        $(".header").removeClass("active");
+    }
+  });
+</script>
 
-  
-  
-</script> 
+<script>
+  //header
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".icon-scroll").addClass("remove");
+    }
+    else {
+        $(".icon-scroll").removeClass("remove");
+    }
+  });
+</script>
+
+<script>
+    new WOW().init();
+</script>
+<script>
+  //backtotop
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".backtotop").addClass("active");
+    }
+    else {
+        $(".backtotop").removeClass("active");
+    }
+  });
+</script>    
     
 </body>
 </html>
