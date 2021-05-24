@@ -119,3 +119,30 @@ ul {
     color: #fff;
     background: #A6ACAF;
 }
+.hang {
+    background: #fff;
+}
+.hang .title {
+    margin-bottom: 3em;
+}
+.hang .title h4 {
+    font-size: 2em;
+    font-weight: 600;
+}
+.hang input {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.hang .stars {
+    padding: 20px 0;
+}
+.hang .stars li {
+    list-style: none;
+    display: inline-block;
+}
+.hang .stars li i {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #222;
+}
