@@ -1,13 +1,13 @@
 let lastnameConsole = document.querySelector('#lastname-wrong');
 let firstnameConsole = document.querySelector('#firstname-wrong');
-let birthdayConsole = document.querySelector('#birthday-wrong');
+let dateConsole = document.querySelector('#date-wrong');
 let regnumberConsole = document.querySelector('#regnumber-wrong');
 let passwordConsole = document.querySelector('#password-wrong');
 
 function validateForm(){
     let lastname = document.forms["form"]["lastname"].value;
     let firstname = document.forms["form"]["firstname"].value;
-    let date = new Date(document.forms["form"]["birthday"].value);
+    let date = new Date(document.forms["form"]["date"].value);
     let regnumber = document.forms["form"]["regnumber"].value;
     let password = document.forms["form"]["password"].value;
     let correct = true;
@@ -29,7 +29,7 @@ function validateForm(){
         firstnameConsole.innerText = " ";
     }
     if(date.length == 0){
-        birthdayConsole.innerText = "Төрсөн он сараа оруулна уу";
+        dateConsole.innerText = "Төрсөн он сараа оруулна уу";
         correct = false;
     }
     if(regnumber.length < 6){
