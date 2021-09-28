@@ -85,6 +85,7 @@ button {
     font-size: 2em;
     background: #555;
     color: #fff;
+    border-radius: 5px;
 }
 button:hover {
     background: #444;
