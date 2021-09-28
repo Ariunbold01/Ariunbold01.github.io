@@ -72,7 +72,8 @@ button {
     width: 100%;
     height: 70px;
     font-size: 24px;
-    background: #fff;
+    color: #8b9091;
+    background: #333;
     border: none;
     transition: all 0.25s ease-in-out;
 }
@@ -80,8 +81,9 @@ button {
     height: 100px;
     padding: 20px;
     font-size: 2em;
-    background: #CACFD2;
+    background: #444;
 }
 button:hover {
-    background: #D7DBDD;
+    background: #222;
+    color: #fff;
 }
