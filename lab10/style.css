@@ -57,7 +57,8 @@ ul {
     align-items: center;
     margin: auto;
     margin-top: 150px;
-    background: #fff;
+    background: none;
+    border-radius: 5px;
 }
 table {
     width: 100%;
@@ -75,15 +76,17 @@ button {
     color: #8b9091;
     background: #333;
     border: none;
+    border-radius: 5px;
     transition: all 0.25s ease-in-out;
 }
 #inputLabel {
     height: 100px;
     padding: 20px;
     font-size: 2em;
-    background: #444;
+    background: #555;
+    color: #fff;
 }
 button:hover {
-    background: #222;
+    background: #444;
     color: #fff;
 }
