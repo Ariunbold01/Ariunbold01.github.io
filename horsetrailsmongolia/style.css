@@ -260,7 +260,7 @@ ul {
     padding: 5px 10px;
 }
 .gallery .title .categories li h5 {
-    
+    cursor: pointer;
 }
 .gallery .picture {
     padding: 0;
