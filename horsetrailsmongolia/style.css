@@ -1,8 +1,8 @@
 body {
-	font-family: "Ubuntu",Tahoma,Geneva,sans-serif, "Jaapokki";
+	font-family: "Ubuntu";
 }
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 a {
 	text-decoration: none;
@@ -71,7 +71,7 @@ ul {
 	width: 50px;
 	height: 50px;
 	color:#fff;
-	background: #76b900;
+	background: #1E0F0A;
 	text-align: center;
 	font-size: 25px;
     padding-top: 5px;
