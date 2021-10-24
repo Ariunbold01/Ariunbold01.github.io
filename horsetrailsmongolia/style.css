@@ -252,6 +252,7 @@ ul {
 }
 .gallery {
     padding: 100px 0;
+    overflow: hidden;
 }
 .gallery .title .categories li {
     display: inline-block;
