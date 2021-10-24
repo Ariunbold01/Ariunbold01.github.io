@@ -1,0 +1,284 @@
+body {
+	font-family: "Ubuntu",Tahoma,Geneva,sans-serif, "Jaapokki";
+}
+html {
+scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clr {
+	clear:both;
+}
+@media (max-width: 576px) {
+
+}
+@media (min-width: 768px) { 
+	
+}
+@media (min-width: 992px) {
+	
+}
+@media (min-width: 1200px) { 
+	
+}
+.fix {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.fix img {
+    width: auto;
+    height: auto;
+}
+.fix h4 {
+    color: #8b9091;
+    font-size: 3em;
+    margin: 15px 0;
+}
+.backtotop {
+	position: fixed;
+	right: 34px;
+    bottom: 34px;
+    z-index: 999;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+    display: none;
+}
+.backtotop.active {
+	opacity: 1;
+    display: block;
+}
+.backtotop a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	color:#fff;
+	background: #76b900;
+	text-align: center;
+	font-size: 25px;
+    padding-top: 5px;
+    line-height: 36px;
+	border-radius: 50%;
+	transition: all 0.4s ease;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.backtotop a:hover {
+    background: #282e3e;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: rgb(51,51,51,0.5);
+}
+.header .logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    float: left;
+}
+.header .logo a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    text-decoration: none;
+}  
+.header .menu {
+    justify-content: center;
+}
+.header .menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5px 10px;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+}
+.header .menu .nav-item {
+    margin: 0 15px;
+}
+.header .menu li a:hover {
+    
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.hamburger-lines {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.hamburger-lines .line-top, .line-middle, .line-bottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    background: #fff;
+    transition: all 0.3s ease-out;
+}
+.hamburger-lines .line-top {
+	top: 18%;
+}
+.hamburger-lines.true .line-top {
+    transform: rotate(-45deg);
+	top: 48%;
+    background: #fff;
+}
+.hamburger-lines.true .line-middle {
+    top: 48%;
+}
+.hamburger-lines.true .line-middle {
+    display: none;
+    
+}
+.hamburger-lines .line-bottom {
+    top: 78%;
+} 
+.hamburger-lines.true .line-bottom {
+	transform: rotate(45deg);
+    top: 48%;
+    background: #fff;
+}
+.header.active {
+    background: rgba(30, 15, 10, 0.9);
+    transition: all 0.3s  ease;
+    box-shadow: 0px 0.5px 5px 0px #222;
+}
+.header.active .menu li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.bg {
+	height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.bg .caption {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.bg .caption-text {
+    position: absolute;
+    top: 35%;
+    color: #fff;
+}
+.bg .caption-text h2 {
+    font-family:  "Jaapokki";
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+        transform: translateY(0) scale(0.5);
+    }
+    10% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.5);
+    }
+}
+.about {
+    background: #faf2c1;
+    padding: 100px 0;
+}
+.about .picture img {
+    height: auto;
+    width: auto;
+}
+
+.hot-treks {
+    padding: 100px 0;
+    background: #83B485;
+}
+.title {
+    text-align: center;
+}
+.hot-treks .title img {
+    padding-bottom: 20px;
+}
+.services {
+    padding: 100px 0;
+    background: #D0DFEE;
+}
+.services .title {
+    text-align: center;
+    padding: 40px 0;
+}
+.services .type .icon img {
+    margin: auto 0;
+}
+.popular_treks {
+    padding: 100px 0;
+    background: #95C3F2;
+}
+.gallery .picture img {
+    width: 100%;
+    height: 100%;
+}
+.gallery {
+    padding: 100px 0;
+}
+.gallery .title .categories li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+.gallery .title .categories li h5 {
+    
+}
+.gallery .picture {
+    padding: 0;
+    margin: 0;
+}
+.blog {
+    padding: 100px 0;
+    background: #1e0f0a;
+}
+.blog .title {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.about_us {
+    padding: 100px 0;
+}
+.footer {
+    padding: 100px 0;
+    background: #1E0F0A;
+    text-align: center;
+}
