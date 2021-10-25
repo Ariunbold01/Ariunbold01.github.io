@@ -177,7 +177,6 @@ ul {
 .header.active {
     background: rgba(30, 15, 10, 0.9);
     transition: all 0.3s  ease;
-    box-shadow: 0px 0.5px 5px 0px #222;
 }
 .header.active .menu li a:hover {
     color: #fff;
