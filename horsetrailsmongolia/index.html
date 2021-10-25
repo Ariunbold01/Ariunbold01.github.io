@@ -320,43 +320,74 @@
                 <h2>Popular Treks</h2>
                 <p>Popular Mongolian tours are designed to independent travelers, we can customize these tour in your best suits. You can ride horses from a day to multi days.  </p>
             </div>
-            <div class="slide col-md-8">
-                <div class="row">
-                    <div class="type col-md-4">
-                        <div class="picture">
-                            <img src="images/popular1.png" alt="">
+            <div class="p_slide col-md-8">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="picture">
+                                        <img src="images/popular1.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Horseback Trekking to Khagin Khar Lake in Khentii</h3>
+                                    </div>
+                                    <div class="caption">
+                                        <p>Horse trekking to the glacier lake <a href="fix.html">Click here</a></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="title">
-                            <h3>Horseback Trekking to Khagin Khar Lake in Khentii</h3>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="picture">
+                                        <img src="images/popular2.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Mongol Naadam Tour</h3>
+                                    </div>
+                                    <div class="caption">
+                                        <p>festival, event tours in Mongolia<a href="fix.html">Click here</a></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="caption">
-                            <p>Horse trekking to the glacier lake <a href="#">Click here</a></p>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="picture">
+                                        <img src="images/popular1.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Horseback Trekking to Khagin Khar Lake in Khentii</h3>
+                                    </div>
+                                    <div class="caption">
+                                        <p>Horse trekking to the glacier lake <a href="fix.html">Click here</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="picture">
+                                        <img src="images/popular2.png" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Mongol Naadam Tour</h3>
+                                    </div>
+                                    <div class="caption">
+                                        <p>festival, event tours in Mongolia<a href="fix.html">Click here</a></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="type col-md-4">
-                        <div class="picture">
-                            <img src="images/popular1.png" alt="">
-                        </div>
-                        <div class="title">
-                            <h3>Horseback Trekking to Khagin Khar Lake in Khentii</h3>
-                        </div>
-                        <div class="caption">
-                            <p>Horse trekking to the glacier lake <a href="#">Click here</a></p>
-                        </div>
-                    </div>
-                    <div class="type col-md-4">
-                        <div class="picture">
-                            <img src="images/popular1.png" alt="">
-                        </div>
-                        <div class="title">
-                            <h3>Horseback Trekking to Khagin Khar Lake in Khentii</h3>
-                        </div>
-                        <div class="caption">
-                            <p>Horse trekking to the glacier lake <a href="#">Click here</a></p>
-                        </div>
-                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-            </div>
+            </div>    
         </div>
     </div>
 </div>
@@ -547,11 +578,23 @@
     var swiper = new Swiper('.hot_treks .swiper-container', {
       slidesPerView: 4,
       centeredSlides: false,
-      spaceBetween: 10,
+      spaceBetween: 20,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
+<script>
+    var swiper = new Swiper('.popular_treks .p_slide .swiper-container', {
+      slidesPerView: 3,
+      centeredSlides: false,
+      spaceBetween: 20,
+      
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
