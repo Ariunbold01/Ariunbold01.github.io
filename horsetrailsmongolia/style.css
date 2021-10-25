@@ -183,23 +183,27 @@ ul {
     color: #fff;
     border-bottom: 2px solid #fff;
 }
-.bg {
+.home_bg {
+    position: relative;
+}
+.home_bg .bg .swiper-slide {
 	height: 100vh;
     position: relative;
     background-size: cover;
     background-position: center;
+    transition-duration: 1000ms!important;
 }
-.bg .caption {
+.home_bg .caption {
     position: relative;
     height: 100vh;
     display: flex;
 }
-.bg .caption-text {
+.home_bg .caption-text {
     position: absolute;
     top: 35%;
     color: #fff;
 }
-.bg .caption-text h2 {
+.home_bg .caption-text h2 {
     font-family:  "Jaapokki";
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -230,7 +234,7 @@ ul {
     width: auto;
 }
 
-.hot-treks {
+.hot_treks {
     padding: 100px 0;
     background: #83B485;
 }
