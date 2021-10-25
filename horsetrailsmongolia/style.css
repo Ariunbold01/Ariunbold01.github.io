@@ -80,7 +80,7 @@ ul {
 	width: 50px;
 	height: 50px;
 	color:#fff;
-	background: #1E0F0A;
+	background: #282e3e;
 	text-align: center;
 	font-size: 25px;
     padding-top: 5px;
@@ -91,7 +91,7 @@ ul {
     transition: all 0.3s ease-in-out;
 }
 .backtotop a:hover {
-    background: #282e3e;
+    background: #1E0F0A;
 }
 .header {
     position: fixed;
@@ -290,6 +290,32 @@ ul {
 }
 .about_us {
     padding: 100px 0;
+    background: #faf2c1;
+}
+.contact {
+    padding: 100px 0;
+    overflow: hidden;
+}
+.contact .title {
+    padding-bottom: 100px;
+}
+.contact .map {
+    height: 400px;
+    background: #1AAAEE;
+}
+.contact .contact_us {
+    padding-top: 100px;
+}
+.contact .contact_us h5 {
+    font-weight: 600;
+}
+.contact .contact_us label {
+    display: grid!important;
+}
+.contact .contact_us .send {
+    display: block;
+    width: auto;
+    margin: auto;
 }
 .footer {
     padding: 100px 0;
