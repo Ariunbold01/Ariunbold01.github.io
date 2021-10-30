@@ -23,8 +23,10 @@ ul {
 .clr {
 	clear:both;
 }
-@media (max-width: 576px) {
-
+@media (max-height: 576px) {
+    .home_bg .caption-text {
+        margin-top: 15%!important;
+    }
 }
 @media (max-width: 768px) { 
     .header .menu .nav-item {
@@ -32,6 +34,9 @@ ul {
     }
 	.about .about_texture {
         text-align: center!important;
+    }
+    .home_bg .caption-text {
+        margin-top: 40%!important;
     }
     .popular_treks .title {
         text-align: center!important;
@@ -196,6 +201,7 @@ ul {
     top: 48%;
     background: #fff;
 }
+
 .header.active {
     background: rgba(30, 15, 10, 0.9);
     transition: all 0.3s  ease;
@@ -219,8 +225,7 @@ ul {
     height: 100vh;
 }
 .home_bg .caption-text {
-    position: absolute;
-    top: 35%;
+    margin-top: 30%;
     color: #fff;
 }
 .home_bg .caption-text h2 {
