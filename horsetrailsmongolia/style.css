@@ -394,14 +394,16 @@ ul {
 }
 .popular_treks .type {
     margin: 0;
-    padding: 7px;
+    padding: 0 7px;
+    box-sizing: border-box;
 }
 .popular_treks .type .picture img {
     width: 100%;
     height: auto;
 }
 .popular_treks .type .title {
-    padding: 0 30px;
+    padding-right: 30px;
+    padding-left: 37px;
     padding-top: 30px;
     background: #fff;
 }
@@ -412,7 +414,8 @@ ul {
 }
 .popular_treks .type .caption {
     background: #fff;
-    padding: 0 30px;
+    padding-right: 30px;
+    padding-left: 37px;
     padding-bottom: 30px;
 }
 .popular_treks .type .caption p {
@@ -422,6 +425,7 @@ ul {
 }
 .popular_treks .type .caption a {
     text-decoration: none;
+    margin-left: 5px;
 }
 .gallery {
     padding: 100px 0;
