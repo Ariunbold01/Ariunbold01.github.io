@@ -538,7 +538,7 @@
                             <p>info@horsetrailsmongolia.com</p>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="post col-md-8">
                         <form action="" method="post">
                             <div class="row">
                                 <p class="name col-md-6">
@@ -558,7 +558,7 @@
                                 </p>
                                 <p class="message col-md-12">
                                     <label>
-                                        <input type="text" id="message" placeholder="Message..." required>
+                                        <textarea type="text" id="message" placeholder="Message..." required></textarea>
                                     </label>
                                 </p>
                                 <input class="send" type="submit" value="Send Message">
@@ -642,7 +642,7 @@
     var swiper = new Swiper('.popular_treks .p_slide .swiper-container', {
       slidesPerView: 3,
       centeredSlides: false,
-      spaceBetween: 20,
+      spaceBetween: 10,
       
       navigation: {
         nextEl: '.swiper-button-next',
