@@ -12,7 +12,7 @@ ul {
 	padding: 0;
 }
 .container {
-    max-width: 1250px;
+    max-width: 1200px;
 }
 .left {
 	float:left;
@@ -121,12 +121,13 @@ ul {
 }
 .header .menu li a {
     color: #fff;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
-    margin: 5px 10px;
-    padding-bottom: 3px;
+    padding: 5px 10px;
     transition: all 0.3s ease;
 }
 .header .menu .nav-item {
@@ -307,19 +308,21 @@ ul {
 .hot_treks .type .title {
     padding: 50px 20px 20px 20px;
 }
-
 .hot_treks .type .caption {
     padding-right: 30px;
     padding-left: 30px;
     text-align: center;
 }
 .hot_treks .type .caption p {
-    
+    color: #91a4a6;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 1.5;
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
 }
 .hot_treks .type .read_more {
     background: #1e0f0a;
@@ -374,9 +377,51 @@ ul {
     padding: 0 15px;
 }
 .popular_treks {
-    padding: 100px 0;
-    background: #95C3F2;
+    padding: 120px 0;
+    background: #1e0f0a;
     overflow: hidden;
+}
+.popular_treks .title {
+    text-align: left;
+}
+.popular_treks .title h2 {
+    color: #fff;
+}
+.popular_treks .title p {
+    padding: 0;
+    margin: 0;
+    max-width: 80%;
+}
+.popular_treks .type {
+    margin: 0;
+    padding: 7px;
+}
+.popular_treks .type .picture img {
+    width: 100%;
+    height: auto;
+}
+.popular_treks .type .title {
+    padding: 0 30px;
+    padding-top: 30px;
+    background: #fff;
+}
+.popular_treks .type .title h3 {
+    color: #000;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.popular_treks .type .caption {
+    background: #fff;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+.popular_treks .type .caption p {
+    color: #91a4a6;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.popular_treks .type .caption a {
+    text-decoration: none;
 }
 .gallery {
     padding: 100px 0;
