@@ -26,8 +26,23 @@ ul {
 @media (max-width: 576px) {
 
 }
-@media (min-width: 768px) { 
-	
+@media (max-width: 768px) { 
+    .header .menu .nav-item {
+        margin: 0;
+    }
+	.about .about_texture {
+        text-align: center!important;
+    }
+    .popular_treks .title {
+        text-align: center!important;
+        padding-bottom: 50px;
+    }
+    .popular_treks .type .title p {
+        max-width: 100%!important;
+    }
+    .contact {
+        padding-bottom: 20px!important;
+    }
 }
 @media (min-width: 992px) {
 	
@@ -127,7 +142,7 @@ ul {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px;
     transition: all 0.3s ease;
 }
 .header .menu .nav-item {
@@ -271,9 +286,12 @@ ul {
     padding: 130px 0;
     overflow: hidden;
 }
+.about .picture {
+    text-align: center;
+}
 .about .picture img {
     height: auto;
-    width: auto;
+    width: 100%;
 }
 .about .about_texture {
     text-align: left;
@@ -308,6 +326,12 @@ ul {
 }
 .hot_treks .type .title {
     padding: 50px 20px 20px 20px;
+}
+.hot_treks .type .title h3 {
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    overflow: hidden;
+    height: 30px;
 }
 .hot_treks .type .caption {
     padding-right: 30px;
@@ -383,6 +407,7 @@ ul {
 }
 .popular_treks .title {
     text-align: left;
+    padding: 0 30px;
 }
 .popular_treks .title h2 {
     color: #fff;
@@ -390,14 +415,13 @@ ul {
 .popular_treks .title p {
     padding: 0;
     margin: 0;
-    max-width: 80%;
 }
 .popular_treks .type .picture img {
     width: 100%;
     height: auto;
 }
 .popular_treks .type .title {
-    padding: 0 25px;
+    padding: 25px;
     padding-top: 30px;
     background: #fff;
 }
@@ -405,19 +429,41 @@ ul {
     padding-bottom: 10px;
     margin: 0;
 }
-.popular_treks .type .caption {
-    background: #fff;
-    padding: 0 25px;
-    padding-bottom: 30px;
-}
-.popular_treks .type .caption p {
+.popular_treks .type .title p {
     color: #91a4a6;
     font-size: 14px;
     line-height: 1.5;
 }
-.popular_treks .type .caption a {
+.popular_treks .type  .title a {
     text-decoration: none;
     margin-left: 5px;
+}
+.popular_treks  .swiper-button-next {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 30%;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0.65;
+}
+.popular_treks  .swiper-button-prev {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 30%;
+}
+.popular_treks  .swiper-button-next .icon {
+    font-size: 25px;
+    line-height: 2;
+    margin-left: 12px;
+}
+.popular_treks  .swiper-button-prev .icon {
+    font-size: 25px;
+    line-height: 2;
+    margin-left: 12px;
 }
 .gallery {
     padding-top: 120px;
@@ -452,12 +498,14 @@ ul {
 }
 .gallery .picture:hover .title {
     bottom: 0;
+    opacity: 1;
 }
 .gallery .picture .title {
     padding: 20px 0;
     text-align: center;
     position: absolute;
     bottom: -30%;
+    opacity: 0;
     width: 100%;
     background: #fff;
     transition: all 0.2s ease-in-out;
@@ -480,6 +528,9 @@ ul {
 }
 .blog .title h2 {
     color: #fff;
+}
+.blog .type {
+    padding-bottom: 35px;
 }
 .blog .type .picture img {
     width: 100%;
