@@ -1,0 +1,58 @@
+{
+  "lang": "en",
+  "background_color": "#1E0F0A",
+  "description": "Mongolia’s train",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "davaadulam1000.github",
+  "orientation": "any",
+  "scope": "/SPA_Mongolian_Tour/",
+  "short_name": "SPA_Mongolian_Tour",
+  "start_url": "/SPA_Mongolian_Tour/",
+  "theme_color": "#1E0F0A",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots" : [
+  {
+    "src": "images/screen0.png",
+    "sizes": "750x1334",
+    "type": "image/png",
+    "platform": "wide",
+    "label": "Homescreen of Awesome App"
+  },
+  {
+    "src": "images/screen1.png",
+    "sizes": "1280x800",
+    "type": "image/png",
+    "platform": "wide",
+    "label": "List of Awesome Resources available in Awesome App"
+  }],
+  "icons": [
+    {
+      "src": "icon/48x48.png",
+      "sizes": "48x48",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/96x96.png",
+      "sizes": "96x96",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/128x128.png",
+      "sizes": "128x128",
+      "purpose": "any maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/512x512.png",
+      "sizes": "512x512",
+      "purpose": "any maskable",
+      "type": "image/png"
+    }
+  ],
+  "url": "https://davaadulam1000.github.io/SPA_Mongolian_Tour/",
+  "generated": true
+}
