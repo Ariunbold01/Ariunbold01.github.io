@@ -81,8 +81,7 @@
     
 </div>
 <!--<div id="main"></div>-->
-<script src="./modules/components/service.js" type="module"></script>
-<script src="./modules/components/blogC.js" type="module"></script>
+
 <footer>
     <div class="footer">
         <div class="container">
@@ -97,6 +96,12 @@
         </div>
     </div>
 </footer>
+
+<script src="./modules/components/service.js" type="module"></script>
+<script src="./modules/components/blogC.js" type="module"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
 <script type="module"> 
 		// This is the "Offline page" service worker
 		// Add this below content to your HTML page inside a <script type="module">
@@ -111,32 +116,7 @@
 	document.body.appendChild(el);
 	</script>
 
-<script type="text/javascript" src="js/swiper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-
-<script>
-  //header
-  $(window).scroll(function () {
-    if ($(window).scrollTop() >= 100) {
-        $(".header").addClass("active");
-    }
-    else {
-        $(".header").removeClass("active");
-    }
-  });
-</script>
-
-<script>
-  //backtotop
-  $(window).scroll(function () {
-    if ($(window).scrollTop() >= 100) {
-        $(".backtotop").addClass("active");
-    }
-    else {
-        $(".backtotop").removeClass("active");
-    }
-  });
-</script>    
+  
 
 <script>
   var swiper = new Swiper('.home_bg .swiper-container', {
