@@ -267,15 +267,15 @@ const Blog_DATA = {
             "Author":"Amartuvshin T. | 18 January 2017"
         },
         {
-            "image_url":"images/blog1.jpg",
+            "image_url":"images/blog2.jpg",
             id:1,
-            "title":"MONGOLIAN HORSE CULTURE",
+            "title":"ABOUT MONGOLIA",
             "Author":"Amartuvshin T. | 18 January 2017"
         },
         {
-            "image_url":"images/blog1.jpg",
+            "image_url":"images/blog3.jpg",
             id:1,
-            "title":"MONGOLIAN HORSE CULTURE",
+            "title":"MONGOLIAN HORSE",
             "Author":"Amartuvshin T. | 18 January 2017"
         }
     ]
