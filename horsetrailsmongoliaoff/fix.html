@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Horse Trails Mongolia</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/materialdesignicons.min.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700" rel="stylesheet">
+</head>
+<body style="background: #222;">
+<header id="header">
+<div class="backtotop">
+	<a href="#header" id="backtotop"><i class="mdi mdi-chevron-up"></i></a>
+</div>
+
+<div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html">
+              <img src="images/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler hamburger-lines" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line-top"></span>
+            <span class="line-middle"></span>
+            <span class="line-bottom"></span>
+          </button>
+          <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h_treks">Hot Treks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#p_treks">Popular Treks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+</div>
+</header>
+<section>
+    <div class="row" style="margin: 0;padding: 0;">
+      <div class="fix col-md-12 col-sm-12">
+          <img src="images/fix.svg" alt="">
+          <h4>Хуудас засвартай байна</h4>
+      </div>
+    </div>
+</section>>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+  //header
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".header").addClass("active");
+    }
+    else {
+        $(".header").removeClass("active");
+    }
+  });
+</script>
+
+<script>
+  //backtotop
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+        $(".backtotop").addClass("active");
+    }
+    else {
+        $(".backtotop").removeClass("active");
+    }
+  });
+</script>    
+    
+</body>
+</html>
