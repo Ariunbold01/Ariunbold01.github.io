@@ -11,6 +11,9 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+.container.s {
+    max-width: 1000px;
+}
 .container {
     max-width: 1200px;
 }
@@ -699,4 +702,30 @@ ul {
 .footer .copyright span {
     color: #fce599;
     font-size: 14px;
+}
+.top_main {
+    background: #fcfcfc;
+    padding-top: 190px;
+    padding-bottom: 120px;
+}
+.top_main .title h2 {
+    font-family:  'Roboto';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+}
+.s_main {
+    padding-top: 150px;
+    background: #fff;
+}
+.s_main img {
+    height: auto;
+    width: 100%;
+}
+.s_main p {
+    color: #91a4a6;
+    padding-top: 25px;
+    font-size: 15px;
 }
