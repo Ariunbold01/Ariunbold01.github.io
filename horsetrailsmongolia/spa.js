@@ -158,7 +158,9 @@ class Start{
 //#region Create HomeData
 const homedata = {
     "Title":[
-        {"title":"Western Mongolia Horse Trek/Snow Leopard Tour","url":"images/bg.jpg","Description":"Most remote Kharkhiraa Turgen Mountains, Legendary Altai Tavan Bogd National Park,"}
+        {"title":"Western Mongolia Horse Trek/Snow Leopard Tour","url":"images/bg.jpg","Description":"Most remote Kharkhiraa Turgen Mountains, Legendary Altai Tavan Bogd National Park,"},
+        {"title":"Northern Mongolian Horse Trekking","url":"images/bg1.jpg","Description":"Blue Pearl  Kovsgol lake, Red Taiga, Visting to Reindeer people's settlement, Ride through high mountains of Koridol Sardig and Darkhad Depression "},
+        {"title":"Khagiin Khar Lake Horse Trekking","url":"images/bg2.jpg","Description":"Adventure horse pack horse trekking through taiga forest of Eastern Mongolia, Khan Khentii,discover the glacier lake hidden in the forest. "},
         ]
 };
 //#endregion
@@ -175,10 +177,12 @@ const HOT_TREKS_DATA = {
     "title":"Hot treks",
     "Description":"Discover the hidden beauty of nature on horseback",
         "slide":[
-            {"img_url":"horsetrailsmongolia/images/type_img1.jpg","title":"Horse Trekking in Northern Mongolia","Description":"The Central Mongolian trip will offer you both cultural and adventure tours. Highlights of this trip will be Mongolia’s oldest Monastery ErdeneZuuHiid and Mongolian Wild horses, legendary Gobi desert..","style":"swiper-slide-active"},
-            {"img_url":"horsetrailsmongolia/images/type_img.jpg","title":"Western Mongolia Horse Trek/Snowleopard Tour","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":"swiper-slide-next"},
-            {"img_url":"horsetrailsmongolia/images/type_img1.jpg","title":"Horse Trekking in Northern Mongolia","Description":"The Central Mongolian trip will offer you both cultural and adventure tours. Highlights of this trip will be Mongolia’s oldest Monastery ErdeneZuuHiid and Mongolian Wild horses, legendary Gobi desert..","style":""},
-            {"img_url":"horsetrailsmongolia/images/type_img.jpg","title":"Western Mongolia Horse Trek/Snowleopard Tour","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":""}
+            {"img_url":"horsetrailsmongolia/images/type_img.jpg","title":"Steppe Trails Ride","Description":"if you don't have a enough time, Steppe Trails horse riding is suits for you experience authentic Mongolia. NomadicMongolian life style, Mongolian horse culture, wide open Mongolian steppe.","style":"swiper-slide-active"},
+            {"img_url":"horsetrailsmongolia/images/type_img1.jpg","title":"Western Mongolia Horse Trek/Snowleopard Tour","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":"swiper-slide-next"},
+            {"img_url":"horsetrailsmongolia/images/type_img2.jpg","title":"The Lake  Khovsgol National Park where is inhabited by many nomads herding families. Here, man and nature exist side by side in the balance that has remained essentially unchanged for thousands of years","style":""},
+            {"img_url":"horsetrailsmongolia/images/type_img3.jpg","title":"The Central Mongolian trip will offer you both cultural and adventure tours. Highlights of this trip will be Mongolia’s oldest Monastery ErdeneZuuHiid and Mongolian Wild horses, legendary Gobi desert..","style":""},
+            {"img_url":"horsetrailsmongolia/images/type_img4.jpg","title":"Tours to Gobi Desert Mongolia","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":""},
+            {"img_url":"horsetrailsmongolia/images/type_img4.jpg","title":"Tours to Gobi Desert Mongolia","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":""},
     ]
 };
 //#endregion
