@@ -30,35 +30,14 @@ export default class Gallery extends Component{
                             <img src="${this.data.image_url}" alt="${this.data.title}">
                             <h2 class="h2_title">${this.data.title}</h2>
                             <div class="categories">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#about">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#h_treks">Hot Treks</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#services">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#p_treks">Popular</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#gallery">Gallery</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#blog">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#about_us">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#contact">Contact</a>
-                                    </li>
-                                </ul>
+                               <ul>
+                                   <li><h5>All</h5></li>
+                                   <li><h5>Horse trekking</h5></li>
+                                   <li><h5>people</h5></li>
+                                   <li><h5>horses</h5></li>
+                                   <li><h5>camping</h5></li>
+                                   <li><h5>landscape</h5></li>
+                               </ul>
                             </div>
                         </div>
                     </div>

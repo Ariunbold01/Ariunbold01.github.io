@@ -534,15 +534,15 @@ ul {
 .gallery .title .categories {
     padding-bottom: 80px;
 }
-.gallery .title .categories .list {
+.gallery .title .categories li {
     display: inline-block;
     list-style: none;
     padding: 5px 10px;
 }
-.gallery .title .categories .list.active h5 {
+.gallery .title .categories li .active h5 {
     color: #32cddb;
 }
-.gallery .title .categories .list h5 {
+.gallery .title .categories li  h5 {
     cursor: pointer;
     text-transform: uppercase;
     color: #91a4a6;
