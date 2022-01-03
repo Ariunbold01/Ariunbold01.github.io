@@ -8,18 +8,18 @@ export default class Blog extends Component{
         return this.html`
         <div class="type col-md-4">
             <div class="picture">
-                <a href="single.html">
+                <a href="horsetrailsmongolia/single.html">
                 <my-blog id="${blog.id}"></my-blog>
                 </a>
             </div>
             <div class="title">
-                <a href="single.html"><h3>${blog.title}</h3></a>
+                <a href="horsetrailsmongolia/single.html"><h3>${blog.title}</h3></a>
             </div>
             <div class="caption">
                 <p>${blog.Author}</p>
             </div>
             <div class="read_more">
-                <a href="single.html">Read more <i class="mdi mdi-arrow-right"></i></a>
+                <a href="horsetrailsmongolia/single.html">Read more <i class="mdi mdi-arrow-right"></i></a>
             </div>
         </div>
         `

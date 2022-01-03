@@ -19,7 +19,7 @@ export default class HOT_TREKS extends Component{
                             <p>${hottreks.Description}</p>
                         </div>
                         <div class="read_more">
-                            <a href="single.html">read more<i class="mdi mdi-arrow-right"></i></a>
+                            <a href="horsetrailsmongolia/single.html">read more<i class="mdi mdi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

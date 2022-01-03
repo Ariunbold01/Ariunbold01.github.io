@@ -162,9 +162,6 @@ ul {
 .header .menu li a:hover {
     color: #fce599;
 }
-.header .menu .nav-link.active {
-    color: #fce599;
-}
 .navbar-toggler:focus {
     box-shadow: none;
 }

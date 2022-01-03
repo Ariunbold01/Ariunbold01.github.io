@@ -67,7 +67,7 @@ class POPULAR{
                     </div>
                     <div class="title">
                         <h3>${populard.title}</h3>
-                        <p>${populard.Description}<a href="single.html">click here</a></p>
+                        <p>${populard.Description}<a href="horsetrailsmongolia/single.html">click here</a></p>
                     </div>
                 </div>
             </div>
