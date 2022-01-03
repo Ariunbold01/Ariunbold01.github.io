@@ -94,7 +94,7 @@ class POPULAR{
                             <div class="swiper-wrapper" style="width:50%">
                             ${A}
                             </div>
-                            <div class="swiper-button-next" style="margin-top:30px">
+                            <div class="swiper-button-next">
                                 <i class="mdi mdi-arrow-right icon"></i>
                             </div>
                             <div class="swiper-button-prev">
@@ -241,14 +241,14 @@ const POPULAR_DATA = {
             "Description":"festival, event tours in Mongolia"
         },
         {
-            "image_url":"horsetrailsmongolia/images/popular2.png",
-            "title":"Mongol Naadam Tour",
-            "Description":"festival, event tours in Mongolia"
+            "image_url":"horsetrailsmongolia/images/popular3.png",
+            "title":"Horseback Trekking to Khagin Khar Lake in Khentii",
+            "Description":"Horse trekking to the glacier lake "
         },
         {
-            "image_url":"horsetrailsmongolia/images/popular2.png",
-            "title":"Mongol Naadam Tour",
-            "Description":"festival, event tours in Mongolia"
+            "image_url":"horsetrailsmongolia/images/popular4.png",
+            "title":"Horse Trekking in Arkhangai Province",
+            "Description":"10 days package tour to Arkhangai "
         }
     ]
 };
