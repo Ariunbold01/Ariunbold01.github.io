@@ -182,7 +182,7 @@ const HOT_TREKS_DATA = {
             {"img_url":"horsetrailsmongolia/images/type_img2.jpg","title":"The Lake  Khovsgol National Park where is inhabited by many nomads herding families. Here, man and nature exist side by side in the balance that has remained essentially unchanged for thousands of years","style":""},
             {"img_url":"horsetrailsmongolia/images/type_img3.jpg","title":"The Central Mongolian trip will offer you both cultural and adventure tours. Highlights of this trip will be Mongolia’s oldest Monastery ErdeneZuuHiid and Mongolian Wild horses, legendary Gobi desert..","style":""},
             {"img_url":"horsetrailsmongolia/images/type_img4.jpg","title":"Tours to Gobi Desert Mongolia","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":""},
-            {"img_url":"horsetrailsmongolia/images/type_img4.jpg","title":"Tours to Gobi Desert Mongolia","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":""},
+            {"img_url":"horsetrailsmongolia/images/type_img5.jpg","title":"Tours to Gobi Desert Mongolia","Description":"Western Mongolia is the most remote region of the capital city. It is also the most ethnically diverse, mountainous, and scenic region of Mongolia, with thousands of years of history.","style":""},
     ]
 };
 //#endregion
@@ -195,10 +195,10 @@ const SERVICES_DATA = {
     "Articles":[
         {
         id:1,
-        "image_url":"horsetrailsmongolia/images/service1.png",
-        "image_name":"Ticket Ordering",
-        "Title":"Ticket Ordering",
-        "Description":"We can handle your domestic flight tickets to Western Mongolia as well as Northern Mongolian Horse trekking tours."
+            "image_url":"horsetrailsmongolia/images/service1.png",
+            "image_name":"Ticket Ordering",
+            "Title":"Ticket Ordering",
+            "Description":"We can handle your domestic flight tickets to Western Mongolia as well as Northern Mongolian Horse trekking tours."
         },
         {
             id:2,
@@ -234,6 +234,16 @@ const POPULAR_DATA = {
             "image_url":"horsetrailsmongolia/images/popular1.png",
             "title":"Horseback Trekking to Khagin Khar Lake in Khentii",
             "Description":"Horse trekking to the glacier lake"
+        },
+        {
+            "image_url":"horsetrailsmongolia/images/popular2.png",
+            "title":"Mongol Naadam Tour",
+            "Description":"festival, event tours in Mongolia"
+        },
+        {
+            "image_url":"horsetrailsmongolia/images/popular2.png",
+            "title":"Mongol Naadam Tour",
+            "Description":"festival, event tours in Mongolia"
         },
         {
             "image_url":"horsetrailsmongolia/images/popular2.png",
