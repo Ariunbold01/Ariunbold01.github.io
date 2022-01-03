@@ -244,14 +244,14 @@ const Gallery_DATA = {
     "image_url":"horsetrailsmongolia/images/gallery_icon.png",
     "title":"OUR GALLERY",
     "Articles":[
-        {"image_url":"horsetrailsmongolia/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"horsetrailsmongolia/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
-        {"image_url":"horsetrailsmongolia/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"horsetrailsmongolia/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
-        {"image_url":"horsetrailsmongolia/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"horsetrailsmongolia/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"},
-        {"image_url":"horsetrailsmongolia/images/gallery1.jpg","id":"1","title":"Northern Mongolia Horse Trek"},
-        {"image_url":"horsetrailsmongolia/images/gallery5.jpg","id":"1","title":"Gobi desert tour mongolia"}
+        {"image_url":"horsetrailsmongolia/images/gallery1.jpg","id":"1","title":"Steppe Trails Ride,Central Mongolia"},
+        {"image_url":"horsetrailsmongolia/images/gallery2.jpg","id":"2","title":"Western Mongolia"},
+        {"image_url":"horsetrailsmongolia/images/gallery3.jpg","id":"3","title":"Khagiin Khar Lake Trekking"},
+        {"image_url":"horsetrailsmongolia/images/gallery4.jpg","id":"4","title":"Northern Mongolia Horse Trek"},
+        {"image_url":"horsetrailsmongolia/images/gallery5.jpg","id":"5","title":"Gobi Desert Tour Mongolia"},
+        {"image_url":"horsetrailsmongolia/images/gallery6.jpg","id":"6","title":"Arkhgai Horse Trekking Mongolia"},
+        {"image_url":"horsetrailsmongolia/images/gallery7.jpg","id":"7","title":"Orkhon Valley,Central Mongolian Trekking"},
+        {"image_url":"horsetrailsmongolia/images/gallery8.jpg","id":"8","title":"Terelj National Park Trekking"}
     ]
 };
 //#endregion
