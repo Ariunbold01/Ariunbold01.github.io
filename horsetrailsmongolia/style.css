@@ -159,6 +159,9 @@ ul {
 .header .menu li a:hover {
     color: #fce599;
 }
+.header .menu .nav-link.active {
+    color: #fce599;
+}
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -531,12 +534,15 @@ ul {
 .gallery .title .categories {
     padding-bottom: 80px;
 }
-.gallery .title .categories li {
+.gallery .title .categories .list {
     display: inline-block;
     list-style: none;
     padding: 5px 10px;
 }
-.gallery .title .categories li h5 {
+.gallery .title .categories .list.active h5 {
+    color: #32cddb;
+}
+.gallery .title .categories .list h5 {
     cursor: pointer;
     text-transform: uppercase;
     color: #91a4a6;
@@ -550,6 +556,9 @@ ul {
     margin: 0;
     position: relative;
     z-index: 99;
+}
+.gallery .picture.hide {
+    display: none;
 }
 .gallery .picture img {
     width: 100%;
@@ -683,4 +692,11 @@ ul {
     padding: 100px 0;
     background: #1E0F0A;
     text-align: center;
+}
+.footer .copyright {
+    margin-top: 20px;
+}
+.footer .copyright span {
+    color: #fce599;
+    font-size: 14px;
 }
