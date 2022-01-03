@@ -268,13 +268,13 @@ const Blog_DATA = {
         },
         {
             "image_url":"images/blog2.jpg",
-            id:1,
+            id:2,
             "title":"ABOUT MONGOLIA",
             "Author":"Amartuvshin T. | 18 January 2017"
         },
         {
             "image_url":"images/blog3.jpg",
-            id:1,
+            id:3,
             "title":"MONGOLIAN HORSE",
             "Author":"Amartuvshin T. | 18 January 2017"
         }

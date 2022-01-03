@@ -117,6 +117,26 @@
 	</script>
 
   
+<script>
+  const backToTop = document.querySelector(".backtotop");
+  window.addEventListener("scroll", () =>  {
+      if (window.pageYOffset > 100) {
+          backToTop.classList.add("active");
+      } else {
+          backToTop.classList.remove("active");
+      }
+  })
+</script>
+<script>
+  const header = document.querySelector(".header");
+  window.addEventListener("scroll", () =>  {
+      if (window.pageYOffset > 100) {
+          header.classList.add("active");
+      } else {
+          header.classList.remove("active");
+      }
+  })
+</script>
 
 <script>
   var swiper = new Swiper('.home_bg .swiper-container', {
