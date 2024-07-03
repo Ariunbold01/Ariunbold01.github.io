@@ -15,7 +15,8 @@ body {
 }
 .wrapper {
     position: relative;
-	padding: 30px;
+	padding: 10px;
+    padding-top: 30px;
 	padding-bottom: 100px;
     background: transparent;
 	border: 2px solid rgba(255,255,255, .2);
@@ -65,6 +66,7 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    text-align: center;
 }
 button:nth-child(1) {
     margin-left: -35%;
